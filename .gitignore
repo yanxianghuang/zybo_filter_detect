@@ -41,12 +41,16 @@ sdk/*_bsp*/*
 
 # Make sure we keep only xci files in repo ip src subfolder
 repo/*/ip/*/src/*/*
+# include all source files in the local directory
+!repo/local
+!repo/local/**
 # Ignore 'generated_ip' directory inside repo/ip
 repo/*/ip/*/generated_ip
 !repo/*/ip/*/src/*/
 !repo/*/ip/*/src/*/*.xci
 !repo/*/ip/*/src/*/*.patch
 !repo/*/ip/*/src/*/*.tcl
+!repo/*/ip/*/component.xml
 
 # Make sure we keep only xci files in ip src subfolder
 src/ip/*/**

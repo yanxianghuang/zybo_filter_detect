@@ -12,4 +12,5 @@ find . -type f ! -name 'cleanup.sh' \
                ! -name 'cleanup.cmd' \
                ! -name 'create_project.tcl' \
                ! -name '.gitignore' \
+               ! -name 'release.py' \
                -exec rm -rf {} +
