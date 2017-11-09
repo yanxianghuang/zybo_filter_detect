@@ -35,6 +35,7 @@ proc ps7_clock_init_data_3_0 {} {
     mask_write 0XF8000154 0x00003F33 0x00000A02
     mask_write 0XF8000168 0x00003F31 0x00000501
     mask_write 0XF8000170 0x03F03F30 0x00200500
+    mask_write 0XF8000180 0x03F03F30 0x00500500
     mask_write 0XF80001C4 0x00000001 0x00000001
     mask_write 0XF800012C 0x01FFCCCD 0x01EC044D
     mwr -force 0XF8000004 0x0000767B
@@ -271,6 +272,7 @@ proc ps7_clock_init_data_2_0 {} {
     mask_write 0XF8000154 0x00003F33 0x00000A02
     mask_write 0XF8000168 0x00003F31 0x00000501
     mask_write 0XF8000170 0x03F03F30 0x00200500
+    mask_write 0XF8000180 0x03F03F30 0x00500500
     mask_write 0XF80001C4 0x00000001 0x00000001
     mask_write 0XF800012C 0x01FFCCCD 0x01EC044D
     mwr -force 0XF8000004 0x0000767B
@@ -508,6 +510,7 @@ proc ps7_clock_init_data_1_0 {} {
     mask_write 0XF8000154 0x00003F33 0x00000A02
     mask_write 0XF8000168 0x00003F31 0x00000501
     mask_write 0XF8000170 0x03F03F30 0x00200500
+    mask_write 0XF8000180 0x03F03F30 0x00500500
     mask_write 0XF80001C4 0x00000001 0x00000001
     mask_write 0XF800012C 0x01FFCCCD 0x01EC044D
     mwr -force 0XF8000004 0x0000767B
@@ -749,7 +752,10 @@ proc ps_version { } {
 }
 
 proc ps7_post_config {} {
-    variable PCW_SILICON_VER_1_0
+    set saved_mode [configparams force-mem-accesses]                  
+    configparams force-mem-accesses 1 
+    
+	variable PCW_SILICON_VER_1_0
     variable PCW_SILICON_VER_2_0
     variable PCW_SILICON_VER_3_0
     set sil_ver [ps_version]
@@ -761,6 +767,7 @@ proc ps7_post_config {} {
     } else {
         ps7_post_config_3_0   
     }
+	configparams force-mem-accesses $saved_mode                                       
 }
 
 proc ps7_debug {} {

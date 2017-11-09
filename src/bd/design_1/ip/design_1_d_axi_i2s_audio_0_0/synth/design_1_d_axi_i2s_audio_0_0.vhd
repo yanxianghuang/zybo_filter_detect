@@ -158,7 +158,7 @@ ARCHITECTURE design_1_d_axi_i2s_audio_0_0_arch OF design_1_d_axi_i2s_audio_0_0 I
     );
   END COMPONENT d_axi_i2s_audio_v2_0;
   ATTRIBUTE X_CORE_INFO : STRING;
-  ATTRIBUTE X_CORE_INFO OF design_1_d_axi_i2s_audio_0_0_arch: ARCHITECTURE IS "d_axi_i2s_audio_v2_0,Vivado 2016.4";
+  ATTRIBUTE X_CORE_INFO OF design_1_d_axi_i2s_audio_0_0_arch: ARCHITECTURE IS "d_axi_i2s_audio_v2_0,Vivado 2017.2";
   ATTRIBUTE CHECK_LICENSE_TYPE : STRING;
   ATTRIBUTE CHECK_LICENSE_TYPE OF design_1_d_axi_i2s_audio_0_0_arch : ARCHITECTURE IS "design_1_d_axi_i2s_audio_0_0,d_axi_i2s_audio_v2_0,{}";
   ATTRIBUTE X_INTERFACE_INFO : STRING;

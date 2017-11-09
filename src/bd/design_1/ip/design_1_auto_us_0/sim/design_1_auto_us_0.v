@@ -48,7 +48,7 @@
 
 
 // IP VLNV: xilinx.com:ip:axi_dwidth_converter:2.1
-// IP Revision: 11
+// IP Revision: 13
 
 `timescale 1ns/1ps
 
@@ -159,7 +159,7 @@ input wire m_axi_rvalid;
 (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 M_AXI RREADY" *)
 output wire m_axi_rready;
 
-  axi_dwidth_converter_v2_1_11_top #(
+  axi_dwidth_converter_v2_1_13_top #(
     .C_FAMILY("zynq"),
     .C_AXI_PROTOCOL(0),
     .C_S_AXI_ID_WIDTH(1),

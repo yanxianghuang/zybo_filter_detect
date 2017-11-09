@@ -1,8 +1,8 @@
---Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+--Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
---Tool Version: Vivado v.2016.4 (win64) Build 1733598 Wed Dec 14 22:35:39 MST 2016
---Date        : Mon Feb 27 13:14:00 2017
---Host        : WK117 running 64-bit major release  (build 9200)
+--Tool Version: Vivado v.2017.2 (lin64) Build 1909853 Thu Jun 15 18:39:10 MDT 2017
+--Date        : Thu Nov  9 14:34:57 2017
+--Host        : yanxiang-W520 running 64-bit Ubuntu 16.04.1 LTS
 --Command     : generate_target design_1_wrapper.bd
 --Design      : design_1_wrapper
 --Purpose     : IP block netlist
@@ -43,7 +43,8 @@ entity design_1_wrapper is
     ac_reclrc : out STD_LOGIC;
     btns_4bits_tri_i : in STD_LOGIC_VECTOR ( 3 downto 0 );
     iic_scl_io : inout STD_LOGIC;
-    iic_sda_io : inout STD_LOGIC
+    iic_sda_io : inout STD_LOGIC;
+    leds_4bits_tri_io : inout STD_LOGIC_VECTOR ( 3 downto 0 )
   );
 end design_1_wrapper;
 
@@ -78,6 +79,9 @@ architecture STRUCTURE of design_1_wrapper is
     IIC_sda_o : out STD_LOGIC;
     IIC_sda_t : out STD_LOGIC;
     btns_4bits_tri_i : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    leds_4bits_tri_i : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    leds_4bits_tri_o : out STD_LOGIC_VECTOR ( 3 downto 0 );
+    leds_4bits_tri_t : out STD_LOGIC_VECTOR ( 3 downto 0 );
     ac_recdat : in STD_LOGIC;
     ac_bclk : out STD_LOGIC;
     ac_reclrc : out STD_LOGIC;
@@ -101,6 +105,22 @@ architecture STRUCTURE of design_1_wrapper is
   signal iic_sda_i : STD_LOGIC;
   signal iic_sda_o : STD_LOGIC;
   signal iic_sda_t : STD_LOGIC;
+  signal leds_4bits_tri_i_0 : STD_LOGIC_VECTOR ( 0 to 0 );
+  signal leds_4bits_tri_i_1 : STD_LOGIC_VECTOR ( 1 to 1 );
+  signal leds_4bits_tri_i_2 : STD_LOGIC_VECTOR ( 2 to 2 );
+  signal leds_4bits_tri_i_3 : STD_LOGIC_VECTOR ( 3 to 3 );
+  signal leds_4bits_tri_io_0 : STD_LOGIC_VECTOR ( 0 to 0 );
+  signal leds_4bits_tri_io_1 : STD_LOGIC_VECTOR ( 1 to 1 );
+  signal leds_4bits_tri_io_2 : STD_LOGIC_VECTOR ( 2 to 2 );
+  signal leds_4bits_tri_io_3 : STD_LOGIC_VECTOR ( 3 to 3 );
+  signal leds_4bits_tri_o_0 : STD_LOGIC_VECTOR ( 0 to 0 );
+  signal leds_4bits_tri_o_1 : STD_LOGIC_VECTOR ( 1 to 1 );
+  signal leds_4bits_tri_o_2 : STD_LOGIC_VECTOR ( 2 to 2 );
+  signal leds_4bits_tri_o_3 : STD_LOGIC_VECTOR ( 3 to 3 );
+  signal leds_4bits_tri_t_0 : STD_LOGIC_VECTOR ( 0 to 0 );
+  signal leds_4bits_tri_t_1 : STD_LOGIC_VECTOR ( 1 to 1 );
+  signal leds_4bits_tri_t_2 : STD_LOGIC_VECTOR ( 2 to 2 );
+  signal leds_4bits_tri_t_3 : STD_LOGIC_VECTOR ( 3 to 3 );
 begin
 design_1_i: component design_1
      port map (
@@ -138,7 +158,19 @@ design_1_i: component design_1
       ac_pblrc => ac_pblrc,
       ac_recdat => ac_recdat,
       ac_reclrc => ac_reclrc,
-      btns_4bits_tri_i(3 downto 0) => btns_4bits_tri_i(3 downto 0)
+      btns_4bits_tri_i(3 downto 0) => btns_4bits_tri_i(3 downto 0),
+      leds_4bits_tri_i(3) => leds_4bits_tri_i_3(3),
+      leds_4bits_tri_i(2) => leds_4bits_tri_i_2(2),
+      leds_4bits_tri_i(1) => leds_4bits_tri_i_1(1),
+      leds_4bits_tri_i(0) => leds_4bits_tri_i_0(0),
+      leds_4bits_tri_o(3) => leds_4bits_tri_o_3(3),
+      leds_4bits_tri_o(2) => leds_4bits_tri_o_2(2),
+      leds_4bits_tri_o(1) => leds_4bits_tri_o_1(1),
+      leds_4bits_tri_o(0) => leds_4bits_tri_o_0(0),
+      leds_4bits_tri_t(3) => leds_4bits_tri_t_3(3),
+      leds_4bits_tri_t(2) => leds_4bits_tri_t_2(2),
+      leds_4bits_tri_t(1) => leds_4bits_tri_t_1(1),
+      leds_4bits_tri_t(0) => leds_4bits_tri_t_0(0)
     );
 iic_scl_iobuf: component IOBUF
      port map (
@@ -153,5 +185,33 @@ iic_sda_iobuf: component IOBUF
       IO => iic_sda_io,
       O => iic_sda_i,
       T => iic_sda_t
+    );
+leds_4bits_tri_iobuf_0: component IOBUF
+     port map (
+      I => leds_4bits_tri_o_0(0),
+      IO => leds_4bits_tri_io(0),
+      O => leds_4bits_tri_i_0(0),
+      T => leds_4bits_tri_t_0(0)
+    );
+leds_4bits_tri_iobuf_1: component IOBUF
+     port map (
+      I => leds_4bits_tri_o_1(1),
+      IO => leds_4bits_tri_io(1),
+      O => leds_4bits_tri_i_1(1),
+      T => leds_4bits_tri_t_1(1)
+    );
+leds_4bits_tri_iobuf_2: component IOBUF
+     port map (
+      I => leds_4bits_tri_o_2(2),
+      IO => leds_4bits_tri_io(2),
+      O => leds_4bits_tri_i_2(2),
+      T => leds_4bits_tri_t_2(2)
+    );
+leds_4bits_tri_iobuf_3: component IOBUF
+     port map (
+      I => leds_4bits_tri_o_3(3),
+      IO => leds_4bits_tri_io(3),
+      O => leds_4bits_tri_i_3(3),
+      T => leds_4bits_tri_t_3(3)
     );
 end STRUCTURE;
