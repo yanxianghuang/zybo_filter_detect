@@ -1,4 +1,4 @@
-10:36:34 **** Build of project new_detect-4way_bsp ****
+15:09:54 **** Auto Build of project new_detect-4way_bsp ****
 make -k all 
 Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_3/src
 make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
@@ -122,5 +122,5 @@ make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPIL
 Compiling scutimer
 Finished building libraries
 
-10:36:58 Build Finished (took 24s.243ms)
+15:10:12 Build Finished (took 18s.578ms)
 

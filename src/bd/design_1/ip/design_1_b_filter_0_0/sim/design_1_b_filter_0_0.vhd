@@ -46,7 +46,7 @@
 -- 
 -- DO NOT MODIFY THIS FILE.
 
--- IP VLNV: user.org:user:b_filter:17
+-- IP VLNV: user.org:user:b_filter:18
 -- IP Revision: 1
 
 LIBRARY ieee;

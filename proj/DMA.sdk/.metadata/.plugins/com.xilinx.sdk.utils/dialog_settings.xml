@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<item value="/home/yanxiang/Develop/vivado/back/Zybo-DMA/proj/DMA.sdk" key="com.xilinx.sdk.hw.ui.hwspec.last"/>
-	<item value="/home/yanxiang/Develop/vivado/back/Zybo-DMA/proj/DMA.sdk" key="last_stored_selection"/>
+	<item value="/home/yanxiang/Develop/vivado/back/Zybo-DMA/proj" key="program_fpga_view_bit_bmm_browse_key"/>
+	<item value="/home/yanxiang/Develop/vivado/back/Zybo-DMA/proj" key="last_stored_selection"/>
 </section>

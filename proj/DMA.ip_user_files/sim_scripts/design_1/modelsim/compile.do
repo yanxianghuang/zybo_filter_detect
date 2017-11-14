@@ -197,14 +197,14 @@ vlog -work xil_defaultlib -64 -incr "+incdir+../../../../../src/bd/design_1/ipsh
 
 vcom -work xil_defaultlib -64 -93 \
 "../../../bd/design_1/hdl/design_1.vhd" \
-"../../../bd/design_1/ipshared/5ffb/src/FPP_ADD_SUB.vhd" \
-"../../../bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd" \
-"../../../bd/design_1/ipshared/5ffb/src/b_filter_S00_AXI.vhd" \
-"../../../bd/design_1/ipshared/5ffb/src/banddetect.vhd" \
-"../../../bd/design_1/ipshared/5ffb/src/fp_leading_zeros_and_shift.vhd" \
-"../../../bd/design_1/ipshared/5ffb/src/right_shifter.vhd" \
-"../../../bd/design_1/ipshared/5ffb/src/biquad.vhd" \
-"../../../bd/design_1/ipshared/5ffb/src/b_filter.vhd" \
+"../../../bd/design_1/ipshared/dad8/src/FPP_ADD_SUB.vhd" \
+"../../../bd/design_1/ipshared/dad8/src/FPP_MULT.vhd" \
+"../../../bd/design_1/ipshared/dad8/src/b_filter_S00_AXI.vhd" \
+"../../../bd/design_1/ipshared/dad8/src/banddetect.vhd" \
+"../../../bd/design_1/ipshared/dad8/src/fp_leading_zeros_and_shift.vhd" \
+"../../../bd/design_1/ipshared/dad8/src/right_shifter.vhd" \
+"../../../bd/design_1/ipshared/dad8/src/biquad.vhd" \
+"../../../bd/design_1/ipshared/dad8/src/b_filter.vhd" \
 "../../../bd/design_1/ip/design_1_b_filter_0_0/sim/design_1_b_filter_0_0.vhd" \
 "../../../bd/design_1/ip/design_1_rst_ps7_0_15M_0/sim/design_1_rst_ps7_0_15M_0.vhd" \
 

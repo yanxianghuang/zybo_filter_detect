@@ -1,7 +1,7 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2017.2 (lin64) Build 1909853 Thu Jun 15 18:39:10 MDT 2017
-| Date             : Tue Nov 14 10:32:45 2017
+| Date             : Tue Nov 14 15:06:25 2017
 | Host             : yanxiang-W520 running 64-bit Ubuntu 16.04.1 LTS
 | Command          : report_power -file design_1_wrapper_power_routed.rpt -pb design_1_wrapper_power_summary_routed.pb -rpx design_1_wrapper_power_routed.rpx
 | Design           : design_1_wrapper
@@ -30,8 +30,8 @@ Table of Contents
 ----------
 
 +--------------------------+-------+
-| Total On-Chip Power (W)  | 1.878 |
-| Dynamic (W)              | 1.744 |
+| Total On-Chip Power (W)  | 1.877 |
+| Dynamic (W)              | 1.743 |
 | Device Static (W)        | 0.134 |
 | Effective TJA (C/W)      | 11.5  |
 | Max Ambient (C)          | 63.3  |
@@ -49,23 +49,23 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
-| Clocks                   |     0.017 |        6 |       --- |             --- |
+| Clocks                   |     0.016 |        6 |       --- |             --- |
 | Slice Logic              |     0.018 |    34846 |       --- |             --- |
-|   LUT as Logic           |     0.017 |    16506 |     17600 |           93.78 |
+|   LUT as Logic           |     0.017 |    16508 |     17600 |           93.80 |
 |   CARRY4                 |    <0.001 |      699 |      4400 |           15.89 |
 |   Register               |    <0.001 |    14165 |     35200 |           40.24 |
 |   LUT as Shift Register  |    <0.001 |      281 |      6000 |            4.68 |
 |   F7/F8 Muxes            |    <0.001 |       16 |     17600 |            0.09 |
 |   Others                 |     0.000 |      815 |       --- |             --- |
 |   LUT as Distributed RAM |     0.000 |       18 |      6000 |            0.30 |
-| Signals                  |     0.023 |    29530 |       --- |             --- |
+| Signals                  |     0.024 |    29534 |       --- |             --- |
 | Block RAM                |     0.007 |      8.5 |        60 |           14.17 |
 | PLL                      |     0.109 |        1 |         2 |           50.00 |
 | DSPs                     |     0.005 |       32 |        80 |           40.00 |
 | I/O                      |     0.003 |       17 |       100 |           17.00 |
 | PS7                      |     1.561 |        1 |       --- |             --- |
 | Static Power             |     0.134 |          |           |                 |
-| Total                    |     1.878 |          |           |                 |
+| Total                    |     1.877 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -155,9 +155,9 @@ Table of Contents
 | Name                                                                                   | Power (W) |
 +----------------------------------------------------------------------------------------+-----------+
 | design_1_wrapper                                                                       |     1.743 |
-|   design_1_i                                                                           |     1.741 |
-|     axi_dma_0                                                                          |     0.016 |
-|       U0                                                                               |     0.016 |
+|   design_1_i                                                                           |     1.740 |
+|     axi_dma_0                                                                          |     0.015 |
+|       U0                                                                               |     0.015 |
 |         INCLUDE_MM2S_SOF_EOF_GENERATOR.I_MM2S_DMA_MNGR                                 |    <0.001 |
 |           GEN_MM2S_DMA_CONTROL.GEN_SIMPLE_DMA_MODE.I_MM2S_SMPL_SM                      |    <0.001 |
 |           GEN_MM2S_DMA_CONTROL.I_MM2S_CMDSTS                                           |    <0.001 |
@@ -261,9 +261,9 @@ Table of Contents
 |                             gdm.dm_gen.dm                                              |    <0.001 |
 |                               RAM_reg_0_7_0_5                                          |    <0.001 |
 |                               RAM_reg_0_7_6_8                                          |    <0.001 |
-|             GEN_INCLUDE_IBTTCC.I_S2MM_MSTR_IBTTCC                                      |     0.001 |
+|             GEN_INCLUDE_IBTTCC.I_S2MM_MSTR_IBTTCC                                      |    <0.001 |
 |             GEN_INCLUDE_REALIGNER.I_S2MM_REALIGNER                                     |     0.001 |
-|               GEN_INCLUDE_SCATTER.I_S2MM_SCATTER                                       |    <0.001 |
+|               GEN_INCLUDE_SCATTER.I_S2MM_SCATTER                                       |     0.001 |
 |                 I_MSSAI_SKID_BUF                                                       |    <0.001 |
 |                 I_TSTRB_FIFO                                                           |    <0.001 |
 |                   USE_SRL_FIFO.I_SYNC_FIFO                                             |    <0.001 |
@@ -460,9 +460,9 @@ Table of Contents
 |               wrouter_aw_fifo                                                          |    <0.001 |
 |                 gen_srls[0].gen_rep[0].srl_nx1                                         |    <0.001 |
 |             splitter_aw_mi                                                             |    <0.001 |
-|     b_filter_0                                                                         |     0.038 |
-|       U0                                                                               |     0.038 |
-|         b_filter_S00_AXI_inst                                                          |     0.038 |
+|     b_filter_0                                                                         |     0.039 |
+|       U0                                                                               |     0.039 |
+|         b_filter_S00_AXI_inst                                                          |     0.039 |
 |           inst0_banddetect                                                             |     0.010 |
 |             LEVEL_DETECT                                                               |    <0.001 |
 |             Q1                                                                         |     0.002 |
@@ -535,9 +535,9 @@ Table of Contents
 |               FP_ADDER                                                                 |     0.001 |
 |                 subtraction_norm                                                       |    <0.001 |
 |               FP_MULTPLIER                                                             |    <0.001 |
-|     d_axi_i2s_audio_0                                                                  |     0.113 |
-|       U0                                                                               |     0.113 |
-|         d_axi_i2s_audio_v2_0_AXI_L_inst                                                |     0.113 |
+|     d_axi_i2s_audio_0                                                                  |     0.112 |
+|       U0                                                                               |     0.112 |
+|         d_axi_i2s_audio_v2_0_AXI_L_inst                                                |     0.112 |
 |           Inst_I2sCtl                                                                  |     0.111 |
 |             Inst_Dcm                                                                   |     0.109 |
 |             Inst_I2sRxFifo                                                             |    <0.001 |

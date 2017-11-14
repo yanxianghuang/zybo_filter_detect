@@ -58,7 +58,7 @@ set run_remote_bd_flow 1
 if { $run_remote_bd_flow == 1 } {
   # Set the reference directory for source file relative paths (by default 
   # the value is script directory path)
-  set origin_dir ./bd
+  set origin_dir ./back/Zybo-DMA/src/bd
 
   # Use origin directory path location variable, if specified in the tcl shell
   if { [info exists ::origin_dir_loc] } {
@@ -205,7 +205,7 @@ CONFIG.NUM_SI {2} \
  ] $axi_mem_intercon
 
   # Create instance: b_filter_0, and set properties
-  set b_filter_0 [ create_bd_cell -type ip -vlnv user.org:user:b_filter:17 b_filter_0 ]
+  set b_filter_0 [ create_bd_cell -type ip -vlnv user.org:user:b_filter:18 b_filter_0 ]
 
   # Create instance: d_axi_i2s_audio_0, and set properties
   set d_axi_i2s_audio_0 [ create_bd_cell -type ip -vlnv digilentinc.com:user:d_axi_i2s_audio:2.0 d_axi_i2s_audio_0 ]

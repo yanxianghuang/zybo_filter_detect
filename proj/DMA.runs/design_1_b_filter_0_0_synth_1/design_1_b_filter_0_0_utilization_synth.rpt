@@ -1,7 +1,7 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2017.2 (lin64) Build 1909853 Thu Jun 15 18:39:10 MDT 2017
-| Date         : Tue Nov 14 10:24:54 2017
+| Date         : Tue Nov 14 15:00:49 2017
 | Host         : yanxiang-W520 running 64-bit Ubuntu 16.04.1 LTS
 | Command      : report_utilization -file design_1_b_filter_0_0_utilization_synth.rpt -pb design_1_b_filter_0_0_utilization_synth.pb
 | Design       : design_1_b_filter_0_0
@@ -56,8 +56,8 @@ Table of Contents
 | 0     |          Yes |           - |            - |
 | 0     |          Yes |           - |          Set |
 | 3256  |          Yes |           - |        Reset |
-| 734   |          Yes |         Set |            - |
-| 4368  |          Yes |       Reset |            - |
+| 777   |          Yes |         Set |            - |
+| 4325  |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -148,13 +148,13 @@ Table of Contents
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
 | LUT6     | 5773 |                 LUT |
-| FDRE     | 4368 |        Flop & Latch |
+| FDRE     | 4325 |        Flop & Latch |
 | FDCE     | 3256 |        Flop & Latch |
 | LUT5     | 2965 |                 LUT |
 | LUT4     | 2633 |                 LUT |
 | LUT2     | 1410 |                 LUT |
 | LUT3     |  983 |                 LUT |
-| FDSE     |  734 |        Flop & Latch |
+| FDSE     |  777 |        Flop & Latch |
 | CARRY4   |  548 |          CarryLogic |
 | LUT1     |   38 |                 LUT |
 | DSP48E1  |   32 |    Block Arithmetic |

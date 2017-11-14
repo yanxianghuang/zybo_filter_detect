@@ -187,13 +187,13 @@
           </spirit:wire>
         </spirit:port>
         <spirit:port>
-          <spirit:name>ac_reclrc</spirit:name>
+          <spirit:name>ac_pblrc</spirit:name>
           <spirit:wire>
             <spirit:direction>out</spirit:direction>
           </spirit:wire>
         </spirit:port>
         <spirit:port>
-          <spirit:name>ac_pblrc</spirit:name>
+          <spirit:name>ac_reclrc</spirit:name>
           <spirit:wire>
             <spirit:direction>out</spirit:direction>
           </spirit:wire>
@@ -589,7 +589,7 @@
       </spirit:componentInstance>
       <spirit:componentInstance>
         <spirit:instanceName>b_filter_0</spirit:instanceName>
-        <spirit:componentRef spirit:library="user" spirit:name="b_filter" spirit:vendor="user.org" spirit:version="17"/>
+        <spirit:componentRef spirit:library="user" spirit:name="b_filter" spirit:vendor="user.org" spirit:version="18"/>
         <spirit:configurableElementValues>
           <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_b_filter_0_0</spirit:configurableElementValue>
         </spirit:configurableElementValues>
@@ -691,8 +691,8 @@
       <spirit:adHocConnection>
         <spirit:name>d_axi_i2s_audio_0_LRCLK_O</spirit:name>
         <spirit:internalPortReference spirit:componentRef="d_axi_i2s_audio_0" spirit:portRef="LRCLK_O"/>
-        <spirit:externalPortReference spirit:portRef="ac_pblrc"/>
         <spirit:externalPortReference spirit:portRef="ac_reclrc"/>
+        <spirit:externalPortReference spirit:portRef="ac_pblrc"/>
       </spirit:adHocConnection>
       <spirit:adHocConnection>
         <spirit:name>d_axi_i2s_audio_0_MCLK_O</spirit:name>
@@ -773,10 +773,10 @@
       <spirit:adHocConnection>
         <spirit:name>processing_system7_0_FCLK_CLK2</spirit:name>
         <spirit:internalPortReference spirit:componentRef="util_ds_buf_0" spirit:portRef="BUFG_O"/>
-        <spirit:internalPortReference spirit:componentRef="ps7_0_axi_periph" spirit:portRef="ACLK"/>
         <spirit:internalPortReference spirit:componentRef="processing_system7_0" spirit:portRef="M_AXI_GP1_ACLK"/>
-        <spirit:internalPortReference spirit:componentRef="ps7_0_axi_periph" spirit:portRef="S00_ACLK"/>
         <spirit:internalPortReference spirit:componentRef="rst_ps7_0_15M" spirit:portRef="slowest_sync_clk"/>
+        <spirit:internalPortReference spirit:componentRef="ps7_0_axi_periph" spirit:portRef="ACLK"/>
+        <spirit:internalPortReference spirit:componentRef="ps7_0_axi_periph" spirit:portRef="S00_ACLK"/>
         <spirit:internalPortReference spirit:componentRef="ps7_0_axi_periph" spirit:portRef="M00_ACLK"/>
         <spirit:internalPortReference spirit:componentRef="b_filter_0" spirit:portRef="s00_axi_aclk"/>
       </spirit:adHocConnection>

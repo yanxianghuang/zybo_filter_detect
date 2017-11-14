@@ -3860,3 +3860,5 @@ file copy -force /home/yanxiang/Develop/vivado/back/Zybo-DMA/proj/DMA.runs/impl_
 
 file copy -force /home/yanxiang/Develop/vivado/back/Zybo-DMA/proj/DMA.runs/impl_1/design_1_wrapper.bit /home/yanxiang/Develop/vivado/back/Zybo-DMA/proj/temp.bit
 open_bd_design {/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/design_1.bd}
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 14 11:56:18 2017...

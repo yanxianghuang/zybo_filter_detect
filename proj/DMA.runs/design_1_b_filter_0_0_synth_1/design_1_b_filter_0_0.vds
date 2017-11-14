@@ -2,8 +2,8 @@
 # Vivado v2017.2 (64-bit)
 # SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
 # IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
-# Start of session at: Tue Nov 14 10:22:32 2017
-# Process ID: 21087
+# Start of session at: Tue Nov 14 14:58:35 2017
+# Process ID: 22036
 # Current directory: /home/yanxiang/Develop/vivado/back/Zybo-DMA/proj/DMA.runs/design_1_b_filter_0_0_synth_1
 # Command line: vivado -log design_1_b_filter_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_b_filter_0_0.tcl
 # Log file: /home/yanxiang/Develop/vivado/back/Zybo-DMA/proj/DMA.runs/design_1_b_filter_0_0_synth_1/design_1_b_filter_0_0.vds
@@ -15,176 +15,176 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010-clg400'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010-clg400'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 21109 
+INFO: Helper process launched with PID 22420 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1210.645 ; gain = 72.996 ; free physical = 974 ; free virtual = 7920
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1211.645 ; gain = 71.996 ; free physical = 2530 ; free virtual = 13367
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'design_1_b_filter_0_0' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ip/design_1_b_filter_0_0/synth/design_1_b_filter_0_0.vhd:82]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
-INFO: [Synth 8-3491] module 'b_filter' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/b_filter.vhd:11' bound to instance 'U0' of component 'b_filter' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ip/design_1_b_filter_0_0/synth/design_1_b_filter_0_0.vhd:141]
-INFO: [Synth 8-638] synthesizing module 'b_filter' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/b_filter.vhd:56]
+INFO: [Synth 8-3491] module 'b_filter' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/b_filter.vhd:11' bound to instance 'U0' of component 'b_filter' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ip/design_1_b_filter_0_0/synth/design_1_b_filter_0_0.vhd:141]
+INFO: [Synth 8-638] synthesizing module 'b_filter' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/b_filter.vhd:56]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
-INFO: [Synth 8-3491] module 'b_filter_S00_AXI' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/b_filter_S00_AXI.vhd:10' bound to instance 'b_filter_S00_AXI_inst' of component 'b_filter_S00_AXI' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/b_filter.vhd:94]
-INFO: [Synth 8-638] synthesizing module 'b_filter_S00_AXI' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/b_filter_S00_AXI.vhd:93]
+INFO: [Synth 8-3491] module 'b_filter_S00_AXI' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/b_filter_S00_AXI.vhd:10' bound to instance 'b_filter_S00_AXI_inst' of component 'b_filter_S00_AXI' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/b_filter.vhd:94]
+INFO: [Synth 8-638] synthesizing module 'b_filter_S00_AXI' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/b_filter_S00_AXI.vhd:93]
 	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
-	Parameter VAR_Q1_B0 bound to: 32'b00111101000111001000011001011111 
+	Parameter VAR_Q1_B0 bound to: 32'b00111101000101001110010111010110 
 	Parameter VAR_Q1_B1 bound to: 32'b00000000000000000000000000000000 
-	Parameter VAR_Q1_B2 bound to: 32'b10111101000111001000011001010101 
-	Parameter VAR_Q1_A1 bound to: 32'b00111111111101010001001000000111 
-	Parameter VAR_Q1_A2 bound to: 32'b10111111011011001101000101001000 
-	Parameter VAR_Q2_B0 bound to: 32'b00111101000111001000011001011111 
-	Parameter VAR_Q2_B1 bound to: 32'b00000000000000000000000000000000 
-	Parameter VAR_Q2_B2 bound to: 32'b10111101000111001000011001010101 
-	Parameter VAR_Q2_A1 bound to: 32'b00111111111110111001001011111101 
-	Parameter VAR_Q2_A2 bound to: 32'b10111111011101111010010011101011 
-INFO: [Synth 8-3491] module 'banddetect' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/banddetect.vhd:31' bound to instance 'inst0_banddetect' of component 'banddetect' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/b_filter_S00_AXI.vhd:336]
-INFO: [Synth 8-638] synthesizing module 'banddetect' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/banddetect.vhd:56]
-	Parameter VAR_Q1_B0 bound to: 1025279583 - type: integer 
+	Parameter VAR_Q1_B2 bound to: 32'b10111101000101001110010111010110 
+	Parameter VAR_Q1_A1 bound to: 32'b00111111111101000101000000010100 
+	Parameter VAR_Q1_A2 bound to: 32'b10111111011100001010000000101110 
+	Parameter VAR_Q2_B0 bound to: 32'b00000000000000000000000000000000 
+	Parameter VAR_Q2_B1 bound to: 32'b10111101000101001110010111010110 
+	Parameter VAR_Q2_B2 bound to: 32'b00111111111110001000110011010011 
+	Parameter VAR_Q2_A1 bound to: 32'b10111111011101010001010100001110 
+	Parameter VAR_Q2_A2 bound to: 32'b10111111011101010001010100001110 
+INFO: [Synth 8-3491] module 'banddetect' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/banddetect.vhd:31' bound to instance 'inst0_banddetect' of component 'banddetect' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/b_filter_S00_AXI.vhd:354]
+INFO: [Synth 8-638] synthesizing module 'banddetect' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/banddetect.vhd:56]
+	Parameter VAR_Q1_B0 bound to: 1024779734 - type: integer 
 	Parameter VAR_Q1_B1 bound to: 0 - type: integer 
-	Parameter VAR_Q1_B2 bound to: -1122204075 - type: integer 
-	Parameter VAR_Q1_A1 bound to: 1073025543 - type: integer 
-	Parameter VAR_Q1_A2 bound to: -1083387576 - type: integer 
-	Parameter VAR_Q2_B0 bound to: 1025279583 - type: integer 
-	Parameter VAR_Q2_B1 bound to: 0 - type: integer 
-	Parameter VAR_Q2_B2 bound to: -1122204075 - type: integer 
-	Parameter VAR_Q2_A1 bound to: 1073451773 - type: integer 
-	Parameter VAR_Q2_A2 bound to: -1082678037 - type: integer 
-INFO: [Synth 8-3491] module 'biquad' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/biquad.vhd:29' bound to instance 'Q1' of component 'biquad' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/banddetect.vhd:212]
-INFO: [Synth 8-638] synthesizing module 'biquad' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/biquad.vhd:45]
-INFO: [Synth 8-3491] module 'FPP_MULT' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:26' bound to instance 'FP_MULTPLIER' of component 'FPP_MULT' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/biquad.vhd:98]
-INFO: [Synth 8-638] synthesizing module 'FPP_MULT' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:39]
-INFO: [Synth 8-256] done synthesizing module 'FPP_MULT' (1#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:39]
-INFO: [Synth 8-3491] module 'FPP_ADD_SUB' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_ADD_SUB.vhd:33' bound to instance 'FP_ADDER' of component 'FPP_ADD_SUB' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/biquad.vhd:111]
-INFO: [Synth 8-638] synthesizing module 'FPP_ADD_SUB' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_ADD_SUB.vhd:44]
+	Parameter VAR_Q1_B2 bound to: -1122703914 - type: integer 
+	Parameter VAR_Q1_A1 bound to: 1072975892 - type: integer 
+	Parameter VAR_Q1_A2 bound to: -1083138002 - type: integer 
+	Parameter VAR_Q2_B0 bound to: 0 - type: integer 
+	Parameter VAR_Q2_B1 bound to: -1122703914 - type: integer 
+	Parameter VAR_Q2_B2 bound to: 1073253587 - type: integer 
+	Parameter VAR_Q2_A1 bound to: -1082845938 - type: integer 
+	Parameter VAR_Q2_A2 bound to: -1082845938 - type: integer 
+INFO: [Synth 8-3491] module 'biquad' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/biquad.vhd:29' bound to instance 'Q1' of component 'biquad' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/banddetect.vhd:212]
+INFO: [Synth 8-638] synthesizing module 'biquad' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/biquad.vhd:45]
+INFO: [Synth 8-3491] module 'FPP_MULT' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:26' bound to instance 'FP_MULTPLIER' of component 'FPP_MULT' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/biquad.vhd:98]
+INFO: [Synth 8-638] synthesizing module 'FPP_MULT' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'FPP_MULT' (1#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:39]
+INFO: [Synth 8-3491] module 'FPP_ADD_SUB' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_ADD_SUB.vhd:33' bound to instance 'FP_ADDER' of component 'FPP_ADD_SUB' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/biquad.vhd:111]
+INFO: [Synth 8-638] synthesizing module 'FPP_ADD_SUB' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_ADD_SUB.vhd:44]
 	Parameter P bound to: 27 - type: integer 
 	Parameter E bound to: 8 - type: integer 
 	Parameter PLOG bound to: 4 - type: integer 
-INFO: [Synth 8-3491] module 'right_shifter' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/right_shifter.vhd:13' bound to instance 'alignment' of component 'right_shifter' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_ADD_SUB.vhd:187]
-INFO: [Synth 8-638] synthesizing module 'right_shifter' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/right_shifter.vhd:20]
+INFO: [Synth 8-3491] module 'right_shifter' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/right_shifter.vhd:13' bound to instance 'alignment' of component 'right_shifter' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_ADD_SUB.vhd:187]
+INFO: [Synth 8-638] synthesizing module 'right_shifter' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/right_shifter.vhd:20]
 	Parameter P bound to: 27 - type: integer 
 	Parameter E bound to: 8 - type: integer 
 	Parameter PLOG bound to: 4 - type: integer 
-WARNING: [Synth 8-6014] Unused sequential element zeros_reg was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/right_shifter.vhd:40]
-WARNING: [Synth 8-6014] Unused sequential element temp_reg was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/right_shifter.vhd:34]
-WARNING: [Synth 8-6014] Unused sequential element sticky_reg was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/right_shifter.vhd:35]
-WARNING: [Synth 8-6014] Unused sequential element dtemp_reg was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/right_shifter.vhd:38]
-INFO: [Synth 8-256] done synthesizing module 'right_shifter' (2#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/right_shifter.vhd:20]
+WARNING: [Synth 8-6014] Unused sequential element zeros_reg was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/right_shifter.vhd:40]
+WARNING: [Synth 8-6014] Unused sequential element temp_reg was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/right_shifter.vhd:34]
+WARNING: [Synth 8-6014] Unused sequential element sticky_reg was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/right_shifter.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element dtemp_reg was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/right_shifter.vhd:38]
+INFO: [Synth 8-256] done synthesizing module 'right_shifter' (2#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/right_shifter.vhd:20]
 	Parameter P bound to: 27 - type: integer 
 	Parameter E bound to: 8 - type: integer 
 	Parameter PLOG bound to: 4 - type: integer 
-INFO: [Synth 8-3491] module 'fp_leading_zeros_and_shift' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/fp_leading_zeros_and_shift.vhd:14' bound to instance 'subtraction_norm' of component 'fp_leading_zeros_and_shift' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_ADD_SUB.vhd:240]
-INFO: [Synth 8-638] synthesizing module 'fp_leading_zeros_and_shift' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/fp_leading_zeros_and_shift.vhd:23]
+INFO: [Synth 8-3491] module 'fp_leading_zeros_and_shift' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/fp_leading_zeros_and_shift.vhd:14' bound to instance 'subtraction_norm' of component 'fp_leading_zeros_and_shift' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_ADD_SUB.vhd:240]
+INFO: [Synth 8-638] synthesizing module 'fp_leading_zeros_and_shift' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/fp_leading_zeros_and_shift.vhd:23]
 	Parameter P bound to: 27 - type: integer 
 	Parameter E bound to: 8 - type: integer 
 	Parameter PLOG bound to: 4 - type: integer 
-WARNING: [Synth 8-6014] Unused sequential element leadZerosBinVar_reg was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/fp_leading_zeros_and_shift.vhd:35]
-WARNING: [Synth 8-6014] Unused sequential element temp_reg was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/fp_leading_zeros_and_shift.vhd:64]
-WARNING: [Synth 8-6014] Unused sequential element dtemp_reg was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/fp_leading_zeros_and_shift.vhd:67]
-INFO: [Synth 8-256] done synthesizing module 'fp_leading_zeros_and_shift' (3#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/fp_leading_zeros_and_shift.vhd:23]
-WARNING: [Synth 8-3936] Found unconnected internal register 'frac_Norm1_reg' and it is trimmed from '28' to '26' bits. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_ADD_SUB.vhd:251]
-WARNING: [Synth 8-3936] Found unconnected internal register 'frac_add_Norm1_reg' and it is trimmed from '28' to '26' bits. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_ADD_SUB.vhd:228]
-WARNING: [Synth 8-3936] Found unconnected internal register 'efectExp_reg' and it is trimmed from '9' to '8' bits. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_ADD_SUB.vhd:182]
-INFO: [Synth 8-256] done synthesizing module 'FPP_ADD_SUB' (4#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_ADD_SUB.vhd:44]
-INFO: [Synth 8-256] done synthesizing module 'biquad' (5#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/biquad.vhd:45]
-INFO: [Synth 8-3491] module 'biquad' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/biquad.vhd:29' bound to instance 'Q2' of component 'biquad' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/banddetect.vhd:227]
-INFO: [Synth 8-3491] module 'biquad' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/biquad.vhd:29' bound to instance 'Q3' of component 'biquad' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/banddetect.vhd:257]
-INFO: [Synth 8-3491] module 'biquad' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/biquad.vhd:29' bound to instance 'Q4' of component 'biquad' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/banddetect.vhd:272]
-INFO: [Synth 8-3491] module 'FPP_ADD_SUB' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_ADD_SUB.vhd:33' bound to instance 'LEVEL_DETECT' of component 'FPP_ADD_SUB' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/banddetect.vhd:291]
-INFO: [Synth 8-256] done synthesizing module 'banddetect' (6#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/banddetect.vhd:56]
-	Parameter VAR_Q1_B0 bound to: 32'b00111101000111001000011001011111 
+WARNING: [Synth 8-6014] Unused sequential element leadZerosBinVar_reg was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/fp_leading_zeros_and_shift.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element temp_reg was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/fp_leading_zeros_and_shift.vhd:64]
+WARNING: [Synth 8-6014] Unused sequential element dtemp_reg was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/fp_leading_zeros_and_shift.vhd:67]
+INFO: [Synth 8-256] done synthesizing module 'fp_leading_zeros_and_shift' (3#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/fp_leading_zeros_and_shift.vhd:23]
+WARNING: [Synth 8-3936] Found unconnected internal register 'frac_Norm1_reg' and it is trimmed from '28' to '26' bits. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_ADD_SUB.vhd:251]
+WARNING: [Synth 8-3936] Found unconnected internal register 'frac_add_Norm1_reg' and it is trimmed from '28' to '26' bits. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_ADD_SUB.vhd:228]
+WARNING: [Synth 8-3936] Found unconnected internal register 'efectExp_reg' and it is trimmed from '9' to '8' bits. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_ADD_SUB.vhd:182]
+INFO: [Synth 8-256] done synthesizing module 'FPP_ADD_SUB' (4#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_ADD_SUB.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'biquad' (5#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/biquad.vhd:45]
+INFO: [Synth 8-3491] module 'biquad' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/biquad.vhd:29' bound to instance 'Q2' of component 'biquad' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/banddetect.vhd:227]
+INFO: [Synth 8-3491] module 'biquad' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/biquad.vhd:29' bound to instance 'Q3' of component 'biquad' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/banddetect.vhd:257]
+INFO: [Synth 8-3491] module 'biquad' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/biquad.vhd:29' bound to instance 'Q4' of component 'biquad' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/banddetect.vhd:272]
+INFO: [Synth 8-3491] module 'FPP_ADD_SUB' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_ADD_SUB.vhd:33' bound to instance 'LEVEL_DETECT' of component 'FPP_ADD_SUB' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/banddetect.vhd:291]
+INFO: [Synth 8-256] done synthesizing module 'banddetect' (6#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/banddetect.vhd:56]
+	Parameter VAR_Q1_B0 bound to: 32'b00111101000011010100000000010111 
 	Parameter VAR_Q1_B1 bound to: 32'b00000000000000000000000000000000 
-	Parameter VAR_Q1_B2 bound to: 32'b10111101000111001000011001011111 
-	Parameter VAR_Q1_A1 bound to: 32'b10111111111100111011110001111101 
-	Parameter VAR_Q1_A2 bound to: 32'b00111111011011111011111011100001 
-	Parameter VAR_Q2_B0 bound to: 32'b00111101000111001000011001011111 
-	Parameter VAR_Q2_B1 bound to: 32'b00000000000000000000000000000000 
-	Parameter VAR_Q2_B2 bound to: 32'b10111101000111001000011001011111 
-	Parameter VAR_Q2_A1 bound to: 32'b10111111111110000100111110000100 
-	Parameter VAR_Q2_A2 bound to: 32'b00111111011101001001111010100000 
-INFO: [Synth 8-3491] module 'banddetect' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/banddetect.vhd:31' bound to instance 'inst1_banddetect' of component 'banddetect' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/b_filter_S00_AXI.vhd:361]
-INFO: [Synth 8-638] synthesizing module 'banddetect__parameterized1' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/banddetect.vhd:56]
-	Parameter VAR_Q1_B0 bound to: 1025279583 - type: integer 
+	Parameter VAR_Q1_B2 bound to: 32'b10111101000011010100000000010111 
+	Parameter VAR_Q1_A1 bound to: 32'b00111111111100001100011111010110 
+	Parameter VAR_Q1_A2 bound to: 32'b10111111011100100011110101011000 
+	Parameter VAR_Q2_B0 bound to: 32'b00000000000000000000000000000000 
+	Parameter VAR_Q2_B1 bound to: 32'b10111101000011010100000000010111 
+	Parameter VAR_Q2_B2 bound to: 32'b00111111111101001111000110011011 
+	Parameter VAR_Q2_A1 bound to: 32'b10111111011101001100111000011111 
+	Parameter VAR_Q2_A2 bound to: 32'b10111111011101001100111000011111 
+INFO: [Synth 8-3491] module 'banddetect' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/banddetect.vhd:31' bound to instance 'inst1_banddetect' of component 'banddetect' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/b_filter_S00_AXI.vhd:379]
+INFO: [Synth 8-638] synthesizing module 'banddetect__parameterized1' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/banddetect.vhd:56]
+	Parameter VAR_Q1_B0 bound to: 1024278551 - type: integer 
 	Parameter VAR_Q1_B1 bound to: 0 - type: integer 
-	Parameter VAR_Q1_B2 bound to: -1122204065 - type: integer 
-	Parameter VAR_Q1_A1 bound to: -1074545539 - type: integer 
-	Parameter VAR_Q1_A2 bound to: 1064287969 - type: integer 
-	Parameter VAR_Q2_B0 bound to: 1025279583 - type: integer 
-	Parameter VAR_Q2_B1 bound to: 0 - type: integer 
-	Parameter VAR_Q2_B2 bound to: -1122204065 - type: integer 
-	Parameter VAR_Q2_A1 bound to: -1074245756 - type: integer 
-	Parameter VAR_Q2_A2 bound to: 1064607392 - type: integer 
-INFO: [Synth 8-3491] module 'biquad' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/biquad.vhd:29' bound to instance 'Q1' of component 'biquad' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/banddetect.vhd:212]
-INFO: [Synth 8-3491] module 'biquad' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/biquad.vhd:29' bound to instance 'Q2' of component 'biquad' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/banddetect.vhd:227]
-INFO: [Synth 8-3491] module 'biquad' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/biquad.vhd:29' bound to instance 'Q3' of component 'biquad' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/banddetect.vhd:257]
-INFO: [Synth 8-3491] module 'biquad' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/biquad.vhd:29' bound to instance 'Q4' of component 'biquad' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/banddetect.vhd:272]
-INFO: [Synth 8-3491] module 'FPP_ADD_SUB' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_ADD_SUB.vhd:33' bound to instance 'LEVEL_DETECT' of component 'FPP_ADD_SUB' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/banddetect.vhd:291]
-INFO: [Synth 8-256] done synthesizing module 'banddetect__parameterized1' (6#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/banddetect.vhd:56]
-	Parameter VAR_Q1_B0 bound to: 32'b00111101000111001000011001011111 
+	Parameter VAR_Q1_B2 bound to: -1123205097 - type: integer 
+	Parameter VAR_Q1_A1 bound to: 1072744406 - type: integer 
+	Parameter VAR_Q1_A2 bound to: -1083032232 - type: integer 
+	Parameter VAR_Q2_B0 bound to: 0 - type: integer 
+	Parameter VAR_Q2_B1 bound to: -1123205097 - type: integer 
+	Parameter VAR_Q2_B2 bound to: 1073017243 - type: integer 
+	Parameter VAR_Q2_A1 bound to: -1082864097 - type: integer 
+	Parameter VAR_Q2_A2 bound to: -1082864097 - type: integer 
+INFO: [Synth 8-3491] module 'biquad' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/biquad.vhd:29' bound to instance 'Q1' of component 'biquad' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/banddetect.vhd:212]
+INFO: [Synth 8-3491] module 'biquad' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/biquad.vhd:29' bound to instance 'Q2' of component 'biquad' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/banddetect.vhd:227]
+INFO: [Synth 8-3491] module 'biquad' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/biquad.vhd:29' bound to instance 'Q3' of component 'biquad' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/banddetect.vhd:257]
+INFO: [Synth 8-3491] module 'biquad' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/biquad.vhd:29' bound to instance 'Q4' of component 'biquad' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/banddetect.vhd:272]
+INFO: [Synth 8-3491] module 'FPP_ADD_SUB' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_ADD_SUB.vhd:33' bound to instance 'LEVEL_DETECT' of component 'FPP_ADD_SUB' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/banddetect.vhd:291]
+INFO: [Synth 8-256] done synthesizing module 'banddetect__parameterized1' (6#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/banddetect.vhd:56]
+	Parameter VAR_Q1_B0 bound to: 32'b00111101000011010100000000010111 
 	Parameter VAR_Q1_B1 bound to: 32'b00000000000000000000000000000000 
-	Parameter VAR_Q1_B2 bound to: 32'b10111101000111001000011001011111 
-	Parameter VAR_Q1_A1 bound to: 32'b10111111111011111101001011110101 
-	Parameter VAR_Q1_A2 bound to: 32'b00111111011100001001100010010101 
-	Parameter VAR_Q2_B0 bound to: 32'b00111101000111001000011001011111 
-	Parameter VAR_Q2_B1 bound to: 32'b00000000000000000000000000000000 
-	Parameter VAR_Q2_B2 bound to: 32'b10111101000111001000011001011111 
-	Parameter VAR_Q2_A1 bound to: 32'b10111111111101001001011101101101 
-	Parameter VAR_Q2_A2 bound to: 32'b00111111011100111100000101001000 
-INFO: [Synth 8-3491] module 'banddetect' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/banddetect.vhd:31' bound to instance 'inst2_banddetect' of component 'banddetect' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/b_filter_S00_AXI.vhd:386]
-INFO: [Synth 8-638] synthesizing module 'banddetect__parameterized3' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/banddetect.vhd:56]
-	Parameter VAR_Q1_B0 bound to: 1025279583 - type: integer 
+	Parameter VAR_Q1_B2 bound to: 32'b10111101000011010100000000010111 
+	Parameter VAR_Q1_A1 bound to: 32'b00111111111010110010100100100100 
+	Parameter VAR_Q1_A2 bound to: 32'b10111111011100101001001111100101 
+	Parameter VAR_Q2_B0 bound to: 32'b00000000000000000000000000000000 
+	Parameter VAR_Q2_B1 bound to: 32'b10111101000011010100000000010111 
+	Parameter VAR_Q2_B2 bound to: 32'b00111111111011111110101011000110 
+	Parameter VAR_Q2_A1 bound to: 32'b10111111011101000111011011000111 
+	Parameter VAR_Q2_A2 bound to: 32'b10111111011101000111011011000111 
+INFO: [Synth 8-3491] module 'banddetect' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/banddetect.vhd:31' bound to instance 'inst2_banddetect' of component 'banddetect' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/b_filter_S00_AXI.vhd:404]
+INFO: [Synth 8-638] synthesizing module 'banddetect__parameterized3' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/banddetect.vhd:56]
+	Parameter VAR_Q1_B0 bound to: 1024278551 - type: integer 
 	Parameter VAR_Q1_B1 bound to: 0 - type: integer 
-	Parameter VAR_Q1_B2 bound to: -1122204065 - type: integer 
-	Parameter VAR_Q1_A1 bound to: -1074801931 - type: integer 
-	Parameter VAR_Q1_A2 bound to: 1064343701 - type: integer 
-	Parameter VAR_Q2_B0 bound to: 1025279583 - type: integer 
-	Parameter VAR_Q2_B1 bound to: 0 - type: integer 
-	Parameter VAR_Q2_B2 bound to: -1122204065 - type: integer 
-	Parameter VAR_Q2_A1 bound to: -1074489491 - type: integer 
-	Parameter VAR_Q2_A2 bound to: 1064550728 - type: integer 
-INFO: [Synth 8-3491] module 'biquad' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/biquad.vhd:29' bound to instance 'Q1' of component 'biquad' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/banddetect.vhd:212]
-INFO: [Synth 8-3491] module 'biquad' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/biquad.vhd:29' bound to instance 'Q2' of component 'biquad' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/banddetect.vhd:227]
-INFO: [Synth 8-3491] module 'biquad' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/biquad.vhd:29' bound to instance 'Q3' of component 'biquad' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/banddetect.vhd:257]
-INFO: [Synth 8-3491] module 'biquad' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/biquad.vhd:29' bound to instance 'Q4' of component 'biquad' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/banddetect.vhd:272]
-INFO: [Synth 8-3491] module 'FPP_ADD_SUB' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_ADD_SUB.vhd:33' bound to instance 'LEVEL_DETECT' of component 'FPP_ADD_SUB' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/banddetect.vhd:291]
-INFO: [Synth 8-256] done synthesizing module 'banddetect__parameterized3' (6#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/banddetect.vhd:56]
-	Parameter VAR_Q1_B0 bound to: 32'b00111101000111001000011001011111 
+	Parameter VAR_Q1_B2 bound to: -1123205097 - type: integer 
+	Parameter VAR_Q1_A1 bound to: 1072376100 - type: integer 
+	Parameter VAR_Q1_A2 bound to: -1083010075 - type: integer 
+	Parameter VAR_Q2_B0 bound to: 0 - type: integer 
+	Parameter VAR_Q2_B1 bound to: -1123205097 - type: integer 
+	Parameter VAR_Q2_B2 bound to: 1072687814 - type: integer 
+	Parameter VAR_Q2_A1 bound to: -1082886457 - type: integer 
+	Parameter VAR_Q2_A2 bound to: -1082886457 - type: integer 
+INFO: [Synth 8-3491] module 'biquad' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/biquad.vhd:29' bound to instance 'Q1' of component 'biquad' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/banddetect.vhd:212]
+INFO: [Synth 8-3491] module 'biquad' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/biquad.vhd:29' bound to instance 'Q2' of component 'biquad' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/banddetect.vhd:227]
+INFO: [Synth 8-3491] module 'biquad' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/biquad.vhd:29' bound to instance 'Q3' of component 'biquad' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/banddetect.vhd:257]
+INFO: [Synth 8-3491] module 'biquad' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/biquad.vhd:29' bound to instance 'Q4' of component 'biquad' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/banddetect.vhd:272]
+INFO: [Synth 8-3491] module 'FPP_ADD_SUB' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_ADD_SUB.vhd:33' bound to instance 'LEVEL_DETECT' of component 'FPP_ADD_SUB' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/banddetect.vhd:291]
+INFO: [Synth 8-256] done synthesizing module 'banddetect__parameterized3' (6#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/banddetect.vhd:56]
+	Parameter VAR_Q1_B0 bound to: 32'b00111101000101001110010111010110 
 	Parameter VAR_Q1_B1 bound to: 32'b00000000000000000000000000000000 
-	Parameter VAR_Q1_B2 bound to: 32'b10111101000111001000011001011111 
-	Parameter VAR_Q1_A1 bound to: 32'b10111111111010100011010101101011 
-	Parameter VAR_Q1_A2 bound to: 32'b00111111011100010000001101100010 
-	Parameter VAR_Q2_B0 bound to: 32'b00111101000111001000011001011111 
-	Parameter VAR_Q2_B1 bound to: 32'b00000000000000000000000000000000 
-	Parameter VAR_Q2_B2 bound to: 32'b10111101000111001000011001011111 
-	Parameter VAR_Q2_A1 bound to: 32'b10111111111011111001011011000111 
-	Parameter VAR_Q2_A2 bound to: 32'b00111111011100110101010101000100 
-INFO: [Synth 8-3491] module 'banddetect' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/banddetect.vhd:31' bound to instance 'inst3_banddetect' of component 'banddetect' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/b_filter_S00_AXI.vhd:411]
-INFO: [Synth 8-638] synthesizing module 'banddetect__parameterized5' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/banddetect.vhd:56]
-	Parameter VAR_Q1_B0 bound to: 1025279583 - type: integer 
+	Parameter VAR_Q1_B2 bound to: 32'b10111101000101001110010111010110 
+	Parameter VAR_Q1_A1 bound to: 32'b00111111111000110101100000011001 
+	Parameter VAR_Q1_A2 bound to: 32'b10111111011100100000011101110010 
+	Parameter VAR_Q2_B0 bound to: 32'b00000000000000000000000000000000 
+	Parameter VAR_Q2_B1 bound to: 32'b10111101000101001110010111010110 
+	Parameter VAR_Q2_B2 bound to: 32'b00111111111010010010100011011100 
+	Parameter VAR_Q2_A1 bound to: 32'b10111111011100111010100101000010 
+	Parameter VAR_Q2_A2 bound to: 32'b10111111011100111010100101000010 
+INFO: [Synth 8-3491] module 'banddetect' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/banddetect.vhd:31' bound to instance 'inst3_banddetect' of component 'banddetect' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/b_filter_S00_AXI.vhd:429]
+INFO: [Synth 8-638] synthesizing module 'banddetect__parameterized5' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/banddetect.vhd:56]
+	Parameter VAR_Q1_B0 bound to: 1024779734 - type: integer 
 	Parameter VAR_Q1_B1 bound to: 0 - type: integer 
-	Parameter VAR_Q1_B2 bound to: -1122204065 - type: integer 
-	Parameter VAR_Q1_A1 bound to: -1075169941 - type: integer 
-	Parameter VAR_Q1_A2 bound to: 1064371042 - type: integer 
-	Parameter VAR_Q2_B0 bound to: 1025279583 - type: integer 
-	Parameter VAR_Q2_B1 bound to: 0 - type: integer 
-	Parameter VAR_Q2_B2 bound to: -1122204065 - type: integer 
-	Parameter VAR_Q2_A1 bound to: -1074817337 - type: integer 
-	Parameter VAR_Q2_A2 bound to: 1064523076 - type: integer 
-INFO: [Synth 8-3491] module 'biquad' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/biquad.vhd:29' bound to instance 'Q1' of component 'biquad' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/banddetect.vhd:212]
-INFO: [Synth 8-3491] module 'biquad' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/biquad.vhd:29' bound to instance 'Q2' of component 'biquad' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/banddetect.vhd:227]
-INFO: [Synth 8-3491] module 'biquad' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/biquad.vhd:29' bound to instance 'Q3' of component 'biquad' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/banddetect.vhd:257]
-INFO: [Synth 8-3491] module 'biquad' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/biquad.vhd:29' bound to instance 'Q4' of component 'biquad' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/banddetect.vhd:272]
-INFO: [Synth 8-3491] module 'FPP_ADD_SUB' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_ADD_SUB.vhd:33' bound to instance 'LEVEL_DETECT' of component 'FPP_ADD_SUB' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/banddetect.vhd:291]
-INFO: [Synth 8-256] done synthesizing module 'banddetect__parameterized5' (6#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/banddetect.vhd:56]
-INFO: [Synth 8-226] default block is never used [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/b_filter_S00_AXI.vhd:523]
-WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/b_filter_S00_AXI.vhd:266]
-WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/b_filter_S00_AXI.vhd:522]
-INFO: [Synth 8-256] done synthesizing module 'b_filter_S00_AXI' (7#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/b_filter_S00_AXI.vhd:93]
-INFO: [Synth 8-256] done synthesizing module 'b_filter' (8#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/b_filter.vhd:56]
+	Parameter VAR_Q1_B2 bound to: -1122703914 - type: integer 
+	Parameter VAR_Q1_A1 bound to: 1071863833 - type: integer 
+	Parameter VAR_Q1_A2 bound to: -1083046030 - type: integer 
+	Parameter VAR_Q2_B0 bound to: 0 - type: integer 
+	Parameter VAR_Q2_B1 bound to: -1122703914 - type: integer 
+	Parameter VAR_Q2_B2 bound to: 1072244956 - type: integer 
+	Parameter VAR_Q2_A1 bound to: -1082939070 - type: integer 
+	Parameter VAR_Q2_A2 bound to: -1082939070 - type: integer 
+INFO: [Synth 8-3491] module 'biquad' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/biquad.vhd:29' bound to instance 'Q1' of component 'biquad' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/banddetect.vhd:212]
+INFO: [Synth 8-3491] module 'biquad' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/biquad.vhd:29' bound to instance 'Q2' of component 'biquad' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/banddetect.vhd:227]
+INFO: [Synth 8-3491] module 'biquad' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/biquad.vhd:29' bound to instance 'Q3' of component 'biquad' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/banddetect.vhd:257]
+INFO: [Synth 8-3491] module 'biquad' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/biquad.vhd:29' bound to instance 'Q4' of component 'biquad' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/banddetect.vhd:272]
+INFO: [Synth 8-3491] module 'FPP_ADD_SUB' declared at '/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_ADD_SUB.vhd:33' bound to instance 'LEVEL_DETECT' of component 'FPP_ADD_SUB' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/banddetect.vhd:291]
+INFO: [Synth 8-256] done synthesizing module 'banddetect__parameterized5' (6#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/banddetect.vhd:56]
+INFO: [Synth 8-226] default block is never used [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/b_filter_S00_AXI.vhd:541]
+WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/b_filter_S00_AXI.vhd:266]
+WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/b_filter_S00_AXI.vhd:540]
+INFO: [Synth 8-256] done synthesizing module 'b_filter_S00_AXI' (7#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/b_filter_S00_AXI.vhd:93]
+INFO: [Synth 8-256] done synthesizing module 'b_filter' (8#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/b_filter.vhd:56]
 INFO: [Synth 8-256] done synthesizing module 'design_1_b_filter_0_0' (9#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ip/design_1_b_filter_0_0/synth/design_1_b_filter_0_0.vhd:82]
 WARNING: [Synth 8-3331] design FPP_ADD_SUB has unconnected port reset
 WARNING: [Synth 8-3331] design b_filter_S00_AXI has unconnected port S_AXI_AWPROT[2]
@@ -194,7 +194,7 @@ WARNING: [Synth 8-3331] design b_filter_S00_AXI has unconnected port S_AXI_ARPRO
 WARNING: [Synth 8-3331] design b_filter_S00_AXI has unconnected port S_AXI_ARPROT[1]
 WARNING: [Synth 8-3331] design b_filter_S00_AXI has unconnected port S_AXI_ARPROT[0]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1253.145 ; gain = 115.496 ; free physical = 977 ; free virtual = 7924
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1254.145 ; gain = 114.496 ; free physical = 2534 ; free virtual = 13373
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -204,7 +204,7 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1253.145 ; gain = 115.496 ; free physical = 979 ; free virtual = 7925
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1254.145 ; gain = 114.496 ; free physical = 2535 ; free virtual = 13374
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7z010clg400-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -216,30 +216,30 @@ Completed Processing XDC Constraints
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.20 . Memory (MB): peak = 1665.590 ; gain = 11.000 ; free physical = 678 ; free virtual = 7641
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.42 . Memory (MB): peak = 1666.613 ; gain = 11.000 ; free physical = 2212 ; free virtual = 13092
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1665.590 ; gain = 527.941 ; free physical = 804 ; free virtual = 7768
+Finished Constraint Validation : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1666.613 ; gain = 526.965 ; free physical = 2333 ; free virtual = 13214
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z010clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1665.590 ; gain = 527.941 ; free physical = 804 ; free virtual = 7768
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1666.613 ; gain = 526.965 ; free physical = 2333 ; free virtual = 13214
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1665.590 ; gain = 527.941 ; free physical = 806 ; free virtual = 7769
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1666.613 ; gain = 526.965 ; free physical = 2335 ; free virtual = 13216
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:85]
-WARNING: [Synth 8-6014] Unused sequential element  was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:85]
-INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_ADD_SUB.vhd:194]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:85]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:85]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_ADD_SUB.vhd:194]
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'biquad'
-WARNING: [Synth 8-6014] Unused sequential element state_reg was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/biquad.vhd:135]
-WARNING: [Synth 8-6014] Unused sequential element state_reg was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/biquad.vhd:135]
-WARNING: [Synth 8-6014] Unused sequential element state_reg was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/biquad.vhd:135]
+WARNING: [Synth 8-6014] Unused sequential element state_reg was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/biquad.vhd:135]
+WARNING: [Synth 8-6014] Unused sequential element state_reg was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/biquad.vhd:135]
+WARNING: [Synth 8-6014] Unused sequential element state_reg was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/biquad.vhd:135]
 ---------------------------------------------------------------------------------------------------
                    State |                     New Encoding |                Previous Encoding 
 ---------------------------------------------------------------------------------------------------
@@ -259,9 +259,9 @@ WARNING: [Synth 8-6014] Unused sequential element state_reg was removed.  [/home
 *
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'biquad'
-WARNING: [Synth 8-6014] Unused sequential element state_reg was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/biquad.vhd:135]
+WARNING: [Synth 8-6014] Unused sequential element state_reg was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/biquad.vhd:135]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 1665.590 ; gain = 527.941 ; free physical = 795 ; free virtual = 7758
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1666.613 ; gain = 526.965 ; free physical = 2324 ; free virtual = 13205
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1511,8 +1511,8 @@ Finished Part Resource Summary
 ---------------------------------------------------------------------------------
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
-WARNING: [Synth 8-6014] Unused sequential element B was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:85]
-WARNING: [Synth 8-6014] Unused sequential element  was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:85]
+WARNING: [Synth 8-6014] Unused sequential element B was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:85]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:85]
 DSP Report: Generating DSP multM, operation Mode is: A*B2.
 DSP Report: register B is absorbed into DSP multM.
 DSP Report: operator multM is absorbed into DSP multM.
@@ -1520,8 +1520,8 @@ DSP Report: operator multM is absorbed into DSP multM.
 DSP Report: Generating DSP multM, operation Mode is: (PCIN>>17)+A*B.
 DSP Report: operator multM is absorbed into DSP multM.
 DSP Report: operator multM is absorbed into DSP multM.
-WARNING: [Synth 8-6014] Unused sequential element B was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:85]
-WARNING: [Synth 8-6014] Unused sequential element  was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:85]
+WARNING: [Synth 8-6014] Unused sequential element B was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:85]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:85]
 DSP Report: Generating DSP multM, operation Mode is: A*B2.
 DSP Report: register B is absorbed into DSP multM.
 DSP Report: operator multM is absorbed into DSP multM.
@@ -1529,8 +1529,8 @@ DSP Report: operator multM is absorbed into DSP multM.
 DSP Report: Generating DSP multM, operation Mode is: (PCIN>>17)+A*B.
 DSP Report: operator multM is absorbed into DSP multM.
 DSP Report: operator multM is absorbed into DSP multM.
-WARNING: [Synth 8-6014] Unused sequential element B was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:85]
-WARNING: [Synth 8-6014] Unused sequential element  was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:85]
+WARNING: [Synth 8-6014] Unused sequential element B was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:85]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:85]
 DSP Report: Generating DSP multM, operation Mode is: A*B2.
 DSP Report: register B is absorbed into DSP multM.
 DSP Report: operator multM is absorbed into DSP multM.
@@ -1538,8 +1538,8 @@ DSP Report: operator multM is absorbed into DSP multM.
 DSP Report: Generating DSP multM, operation Mode is: (PCIN>>17)+A*B.
 DSP Report: operator multM is absorbed into DSP multM.
 DSP Report: operator multM is absorbed into DSP multM.
-WARNING: [Synth 8-6014] Unused sequential element B was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:85]
-WARNING: [Synth 8-6014] Unused sequential element  was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:85]
+WARNING: [Synth 8-6014] Unused sequential element B was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:85]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:85]
 DSP Report: Generating DSP multM, operation Mode is: A*B2.
 DSP Report: register B is absorbed into DSP multM.
 DSP Report: operator multM is absorbed into DSP multM.
@@ -1547,9 +1547,9 @@ DSP Report: operator multM is absorbed into DSP multM.
 DSP Report: Generating DSP multM, operation Mode is: (PCIN>>17)+A*B.
 DSP Report: operator multM is absorbed into DSP multM.
 DSP Report: operator multM is absorbed into DSP multM.
-WARNING: [Synth 8-6014] Unused sequential element LEVEL_DETECT/done_reg was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_ADD_SUB.vhd:130]
-WARNING: [Synth 8-6014] Unused sequential element B was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:85]
-WARNING: [Synth 8-6014] Unused sequential element  was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:85]
+WARNING: [Synth 8-6014] Unused sequential element LEVEL_DETECT/done_reg was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_ADD_SUB.vhd:130]
+WARNING: [Synth 8-6014] Unused sequential element B was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:85]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:85]
 DSP Report: Generating DSP multM, operation Mode is: A*B2.
 DSP Report: register B is absorbed into DSP multM.
 DSP Report: operator multM is absorbed into DSP multM.
@@ -1557,8 +1557,8 @@ DSP Report: operator multM is absorbed into DSP multM.
 DSP Report: Generating DSP multM, operation Mode is: (PCIN>>17)+A*B.
 DSP Report: operator multM is absorbed into DSP multM.
 DSP Report: operator multM is absorbed into DSP multM.
-WARNING: [Synth 8-6014] Unused sequential element B was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:85]
-WARNING: [Synth 8-6014] Unused sequential element  was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:85]
+WARNING: [Synth 8-6014] Unused sequential element B was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:85]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:85]
 DSP Report: Generating DSP multM, operation Mode is: A*B2.
 DSP Report: register B is absorbed into DSP multM.
 DSP Report: operator multM is absorbed into DSP multM.
@@ -1566,8 +1566,8 @@ DSP Report: operator multM is absorbed into DSP multM.
 DSP Report: Generating DSP multM, operation Mode is: (PCIN>>17)+A*B.
 DSP Report: operator multM is absorbed into DSP multM.
 DSP Report: operator multM is absorbed into DSP multM.
-WARNING: [Synth 8-6014] Unused sequential element B was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:85]
-WARNING: [Synth 8-6014] Unused sequential element  was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:85]
+WARNING: [Synth 8-6014] Unused sequential element B was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:85]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:85]
 DSP Report: Generating DSP multM, operation Mode is: A*B2.
 DSP Report: register B is absorbed into DSP multM.
 DSP Report: operator multM is absorbed into DSP multM.
@@ -1575,8 +1575,8 @@ DSP Report: operator multM is absorbed into DSP multM.
 DSP Report: Generating DSP multM, operation Mode is: (PCIN>>17)+A*B.
 DSP Report: operator multM is absorbed into DSP multM.
 DSP Report: operator multM is absorbed into DSP multM.
-WARNING: [Synth 8-6014] Unused sequential element B was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:85]
-WARNING: [Synth 8-6014] Unused sequential element  was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:85]
+WARNING: [Synth 8-6014] Unused sequential element B was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:85]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:85]
 DSP Report: Generating DSP multM, operation Mode is: A*B2.
 DSP Report: register B is absorbed into DSP multM.
 DSP Report: operator multM is absorbed into DSP multM.
@@ -1584,9 +1584,9 @@ DSP Report: operator multM is absorbed into DSP multM.
 DSP Report: Generating DSP multM, operation Mode is: (PCIN>>17)+A*B.
 DSP Report: operator multM is absorbed into DSP multM.
 DSP Report: operator multM is absorbed into DSP multM.
-WARNING: [Synth 8-6014] Unused sequential element LEVEL_DETECT/done_reg was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_ADD_SUB.vhd:130]
-WARNING: [Synth 8-6014] Unused sequential element B was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:85]
-WARNING: [Synth 8-6014] Unused sequential element  was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:85]
+WARNING: [Synth 8-6014] Unused sequential element LEVEL_DETECT/done_reg was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_ADD_SUB.vhd:130]
+WARNING: [Synth 8-6014] Unused sequential element B was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:85]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:85]
 DSP Report: Generating DSP multM, operation Mode is: A*B2.
 DSP Report: register B is absorbed into DSP multM.
 DSP Report: operator multM is absorbed into DSP multM.
@@ -1594,8 +1594,8 @@ DSP Report: operator multM is absorbed into DSP multM.
 DSP Report: Generating DSP multM, operation Mode is: (PCIN>>17)+A*B.
 DSP Report: operator multM is absorbed into DSP multM.
 DSP Report: operator multM is absorbed into DSP multM.
-WARNING: [Synth 8-6014] Unused sequential element B was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:85]
-WARNING: [Synth 8-6014] Unused sequential element  was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:85]
+WARNING: [Synth 8-6014] Unused sequential element B was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:85]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:85]
 DSP Report: Generating DSP multM, operation Mode is: A*B2.
 DSP Report: register B is absorbed into DSP multM.
 DSP Report: operator multM is absorbed into DSP multM.
@@ -1603,8 +1603,8 @@ DSP Report: operator multM is absorbed into DSP multM.
 DSP Report: Generating DSP multM, operation Mode is: (PCIN>>17)+A*B.
 DSP Report: operator multM is absorbed into DSP multM.
 DSP Report: operator multM is absorbed into DSP multM.
-WARNING: [Synth 8-6014] Unused sequential element B was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:85]
-WARNING: [Synth 8-6014] Unused sequential element  was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:85]
+WARNING: [Synth 8-6014] Unused sequential element B was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:85]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:85]
 DSP Report: Generating DSP multM, operation Mode is: A*B2.
 DSP Report: register B is absorbed into DSP multM.
 DSP Report: operator multM is absorbed into DSP multM.
@@ -1612,8 +1612,8 @@ DSP Report: operator multM is absorbed into DSP multM.
 DSP Report: Generating DSP multM, operation Mode is: (PCIN>>17)+A*B.
 DSP Report: operator multM is absorbed into DSP multM.
 DSP Report: operator multM is absorbed into DSP multM.
-WARNING: [Synth 8-6014] Unused sequential element B was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:85]
-WARNING: [Synth 8-6014] Unused sequential element  was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:85]
+WARNING: [Synth 8-6014] Unused sequential element B was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:85]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:85]
 DSP Report: Generating DSP multM, operation Mode is: A*B2.
 DSP Report: register B is absorbed into DSP multM.
 DSP Report: operator multM is absorbed into DSP multM.
@@ -1621,8 +1621,8 @@ DSP Report: operator multM is absorbed into DSP multM.
 DSP Report: Generating DSP multM, operation Mode is: (PCIN>>17)+A*B.
 DSP Report: operator multM is absorbed into DSP multM.
 DSP Report: operator multM is absorbed into DSP multM.
-WARNING: [Synth 8-6014] Unused sequential element B was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:85]
-WARNING: [Synth 8-6014] Unused sequential element  was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:85]
+WARNING: [Synth 8-6014] Unused sequential element B was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:85]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:85]
 DSP Report: Generating DSP multM, operation Mode is: A*B2.
 DSP Report: register B is absorbed into DSP multM.
 DSP Report: operator multM is absorbed into DSP multM.
@@ -1630,8 +1630,8 @@ DSP Report: operator multM is absorbed into DSP multM.
 DSP Report: Generating DSP multM, operation Mode is: (PCIN>>17)+A*B.
 DSP Report: operator multM is absorbed into DSP multM.
 DSP Report: operator multM is absorbed into DSP multM.
-WARNING: [Synth 8-6014] Unused sequential element B was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:85]
-WARNING: [Synth 8-6014] Unused sequential element  was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:85]
+WARNING: [Synth 8-6014] Unused sequential element B was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:85]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:85]
 DSP Report: Generating DSP multM, operation Mode is: A*B2.
 DSP Report: register B is absorbed into DSP multM.
 DSP Report: operator multM is absorbed into DSP multM.
@@ -1639,8 +1639,8 @@ DSP Report: operator multM is absorbed into DSP multM.
 DSP Report: Generating DSP multM, operation Mode is: (PCIN>>17)+A*B.
 DSP Report: operator multM is absorbed into DSP multM.
 DSP Report: operator multM is absorbed into DSP multM.
-WARNING: [Synth 8-6014] Unused sequential element B was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:85]
-WARNING: [Synth 8-6014] Unused sequential element  was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:85]
+WARNING: [Synth 8-6014] Unused sequential element B was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:85]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:85]
 DSP Report: Generating DSP multM, operation Mode is: A*B2.
 DSP Report: register B is absorbed into DSP multM.
 DSP Report: operator multM is absorbed into DSP multM.
@@ -1648,8 +1648,8 @@ DSP Report: operator multM is absorbed into DSP multM.
 DSP Report: Generating DSP multM, operation Mode is: (PCIN>>17)+A*B.
 DSP Report: operator multM is absorbed into DSP multM.
 DSP Report: operator multM is absorbed into DSP multM.
-WARNING: [Synth 8-6014] Unused sequential element B was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:85]
-WARNING: [Synth 8-6014] Unused sequential element  was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:85]
+WARNING: [Synth 8-6014] Unused sequential element B was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:85]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:85]
 DSP Report: Generating DSP multM, operation Mode is: A*B2.
 DSP Report: register B is absorbed into DSP multM.
 DSP Report: operator multM is absorbed into DSP multM.
@@ -1810,7 +1810,7 @@ INFO: [Synth 8-3333] propagating constant 0 across sequential element (b_filter_
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (b_filter_S00_AXI_insti_0/\inst0_banddetect/Q3 /\x0_reg[31] )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (b_filter_S00_AXI_insti_0/\inst1_banddetect/Q3 /\x0_reg[31] )
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:22 ; elapsed = 00:01:24 . Memory (MB): peak = 1665.590 ; gain = 527.941 ; free physical = 635 ; free virtual = 7601
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:19 ; elapsed = 00:01:22 . Memory (MB): peak = 1666.613 ; gain = 526.965 ; free physical = 2167 ; free virtual = 13050
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -1863,36 +1863,36 @@ Report RTL Partitions:
 +------+---------------------------+------------+----------+
 |      |RTL Partition              |Replication |Instances |
 +------+---------------------------+------------+----------+
-|1     |b_filter_S00_AXI__GB0      |           1|     21783|
-|2     |banddetect__parameterized3 |           1|     10677|
-|3     |banddetect__parameterized5 |           1|     10677|
+|1     |b_filter_S00_AXI__GB0      |           1|     21785|
+|2     |banddetect__parameterized3 |           1|     10678|
+|3     |banddetect__parameterized5 |           1|     10678|
 +------+---------------------------+------------+----------+
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:33 ; elapsed = 00:01:36 . Memory (MB): peak = 1760.926 ; gain = 623.277 ; free physical = 470 ; free virtual = 7439
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:30 ; elapsed = 00:01:34 . Memory (MB): peak = 1761.949 ; gain = 622.301 ; free physical = 1994 ; free virtual = 12885
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:01:33 ; elapsed = 00:01:36 . Memory (MB): peak = 1760.926 ; gain = 623.277 ; free physical = 470 ; free virtual = 7439
+Finished Timing Optimization : Time (s): cpu = 00:01:30 ; elapsed = 00:01:34 . Memory (MB): peak = 1761.949 ; gain = 622.301 ; free physical = 1994 ; free virtual = 12885
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
 +------+---------------------------+------------+----------+
 |      |RTL Partition              |Replication |Instances |
 +------+---------------------------+------------+----------+
-|1     |b_filter_S00_AXI__GB0      |           1|     21783|
-|2     |banddetect__parameterized3 |           1|     10677|
-|3     |banddetect__parameterized5 |           1|     10677|
+|1     |b_filter_S00_AXI__GB0      |           1|     21785|
+|2     |banddetect__parameterized3 |           1|     10678|
+|3     |banddetect__parameterized5 |           1|     10678|
 +------+---------------------------+------------+----------+
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:01:41 ; elapsed = 00:01:44 . Memory (MB): peak = 1925.512 ; gain = 787.863 ; free physical = 514 ; free virtual = 7483
+Finished Technology Mapping : Time (s): cpu = 00:01:38 ; elapsed = 00:01:41 . Memory (MB): peak = 1926.535 ; gain = 786.887 ; free physical = 2032 ; free virtual = 12922
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1916,7 +1916,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:01:43 ; elapsed = 00:01:46 . Memory (MB): peak = 1925.512 ; gain = 787.863 ; free physical = 512 ; free virtual = 7480
+Finished IO Insertion : Time (s): cpu = 00:01:40 ; elapsed = 00:01:43 . Memory (MB): peak = 1926.535 ; gain = 786.887 ; free physical = 2031 ; free virtual = 12921
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -1929,7 +1929,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:01:43 ; elapsed = 00:01:46 . Memory (MB): peak = 1925.512 ; gain = 787.863 ; free physical = 512 ; free virtual = 7480
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:40 ; elapsed = 00:01:43 . Memory (MB): peak = 1926.535 ; gain = 786.887 ; free physical = 2031 ; free virtual = 12921
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1941,25 +1941,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:45 ; elapsed = 00:01:48 . Memory (MB): peak = 1925.512 ; gain = 787.863 ; free physical = 509 ; free virtual = 7478
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:42 ; elapsed = 00:01:45 . Memory (MB): peak = 1926.535 ; gain = 786.887 ; free physical = 2028 ; free virtual = 12919
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:01:45 ; elapsed = 00:01:48 . Memory (MB): peak = 1925.512 ; gain = 787.863 ; free physical = 509 ; free virtual = 7478
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:42 ; elapsed = 00:01:45 . Memory (MB): peak = 1926.535 ; gain = 786.887 ; free physical = 2028 ; free virtual = 12919
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:01:46 ; elapsed = 00:01:49 . Memory (MB): peak = 1925.512 ; gain = 787.863 ; free physical = 510 ; free virtual = 7478
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:42 ; elapsed = 00:01:46 . Memory (MB): peak = 1926.535 ; gain = 786.887 ; free physical = 2028 ; free virtual = 12919
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:01:46 ; elapsed = 00:01:49 . Memory (MB): peak = 1925.512 ; gain = 787.863 ; free physical = 510 ; free virtual = 7478
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:42 ; elapsed = 00:01:46 . Memory (MB): peak = 1926.535 ; gain = 786.887 ; free physical = 2028 ; free virtual = 12919
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -1985,8 +1985,8 @@ Report Cell Usage:
 |8     |LUT5      |  2965|
 |9     |LUT6      |  5773|
 |10    |FDCE      |  3256|
-|11    |FDRE      |  4368|
-|12    |FDSE      |   734|
+|11    |FDRE      |  4325|
+|12    |FDSE      |   777|
 +------+----------+------+
 
 Report Instance Areas: 
@@ -2038,10 +2038,10 @@ Report Instance Areas:
 |43    |          FP_ADDER           |FPP_ADD_SUB_27                |   642|
 |44    |            subtraction_norm |fp_leading_zeros_and_shift_29 |     3|
 |45    |          FP_MULTPLIER       |FPP_MULT_28                   |   243|
-|46    |        Q2                   |biquad_15                     |  1217|
+|46    |        Q2                   |biquad_15                     |  1215|
 |47    |          FP_ADDER           |FPP_ADD_SUB_24                |   642|
 |48    |            subtraction_norm |fp_leading_zeros_and_shift_26 |     3|
-|49    |          FP_MULTPLIER       |FPP_MULT_25                   |   242|
+|49    |          FP_MULTPLIER       |FPP_MULT_25                   |   240|
 |50    |        Q3                   |biquad_16                     |  1218|
 |51    |          FP_ADDER           |FPP_ADD_SUB_21                |   644|
 |52    |            subtraction_norm |fp_leading_zeros_and_shift_23 |     3|
@@ -2052,14 +2052,14 @@ Report Instance Areas:
 |57    |          FP_MULTPLIER       |FPP_MULT_19                   |   239|
 |58    |      inst3_banddetect       |banddetect__parameterized5    |  5622|
 |59    |        LEVEL_DETECT         |FPP_ADD_SUB                   |   183|
-|60    |        Q1                   |biquad                        |  1218|
+|60    |        Q1                   |biquad                        |  1220|
 |61    |          FP_ADDER           |FPP_ADD_SUB_10                |   642|
 |62    |            subtraction_norm |fp_leading_zeros_and_shift_12 |     3|
-|63    |          FP_MULTPLIER       |FPP_MULT_11                   |   242|
-|64    |        Q2                   |biquad_0                      |  1217|
+|63    |          FP_MULTPLIER       |FPP_MULT_11                   |   244|
+|64    |        Q2                   |biquad_0                      |  1213|
 |65    |          FP_ADDER           |FPP_ADD_SUB_7                 |   642|
 |66    |            subtraction_norm |fp_leading_zeros_and_shift_9  |     3|
-|67    |          FP_MULTPLIER       |FPP_MULT_8                    |   242|
+|67    |          FP_MULTPLIER       |FPP_MULT_8                    |   238|
 |68    |        Q3                   |biquad_1                      |  1218|
 |69    |          FP_ADDER           |FPP_ADD_SUB_4                 |   644|
 |70    |            subtraction_norm |fp_leading_zeros_and_shift_6  |     3|
@@ -2070,107 +2070,107 @@ Report Instance Areas:
 |75    |          FP_MULTPLIER       |FPP_MULT                      |   239|
 +------+-----------------------------+------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:01:46 ; elapsed = 00:01:49 . Memory (MB): peak = 1925.512 ; gain = 787.863 ; free physical = 510 ; free virtual = 7478
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:42 ; elapsed = 00:01:46 . Memory (MB): peak = 1926.535 ; gain = 786.887 ; free physical = 2028 ; free virtual = 12919
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 563 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:01:36 ; elapsed = 00:01:39 . Memory (MB): peak = 1925.512 ; gain = 375.418 ; free physical = 590 ; free virtual = 7559
-Synthesis Optimization Complete : Time (s): cpu = 00:01:46 ; elapsed = 00:01:49 . Memory (MB): peak = 1925.520 ; gain = 787.863 ; free physical = 590 ; free virtual = 7559
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:32 ; elapsed = 00:01:35 . Memory (MB): peak = 1926.535 ; gain = 374.418 ; free physical = 2109 ; free virtual = 13000
+Synthesis Optimization Complete : Time (s): cpu = 00:01:43 ; elapsed = 00:01:46 . Memory (MB): peak = 1926.543 ; gain = 786.887 ; free physical = 2109 ; free virtual = 13000
 INFO: [Project 1-571] Translating synthesized netlist
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
-CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5ffb/src/FPP_MULT.vhd:93]
+CRITICAL WARNING: [Netlist 29-72] Incorrect value 'WAITM' specified for property 'init'. Expecting type 'binary' with possible values of '1'b0,1'b1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/dad8/src/FPP_MULT.vhd:93]
 Resolution: Please check the value of the property and set to a correct value.
 INFO: [Netlist 29-17] Analyzing 580 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -2181,10 +2181,10 @@ No Unisim elements were transformed.
 
 115 Infos, 164 Warnings, 48 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:51 ; elapsed = 00:01:54 . Memory (MB): peak = 1957.527 ; gain = 832.465 ; free physical = 585 ; free virtual = 7554
+synth_design: Time (s): cpu = 00:01:48 ; elapsed = 00:01:51 . Memory (MB): peak = 1958.551 ; gain = 831.488 ; free physical = 2104 ; free virtual = 12996
 INFO: [Common 17-1381] The checkpoint '/home/yanxiang/Develop/vivado/back/Zybo-DMA/proj/DMA.runs/design_1_b_filter_0_0_synth_1/design_1_b_filter_0_0.dcp' has been generated.
 INFO: [Coretcl 2-1482] Added synthesis output to IP cache for IP /home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ip/design_1_b_filter_0_0/design_1_b_filter_0_0.xci
 INFO: [Coretcl 2-1174] Renamed 74 cell refs.
 INFO: [Common 17-1381] The checkpoint '/home/yanxiang/Develop/vivado/back/Zybo-DMA/proj/DMA.runs/design_1_b_filter_0_0_synth_1/design_1_b_filter_0_0.dcp' has been generated.
-report_utilization: Time (s): cpu = 00:00:00.31 ; elapsed = 00:00:00.35 . Memory (MB): peak = 1981.539 ; gain = 0.000 ; free physical = 561 ; free virtual = 7549
-INFO: [Common 17-206] Exiting Vivado at Tue Nov 14 10:24:57 2017...
+report_utilization: Time (s): cpu = 00:00:00.33 ; elapsed = 00:00:00.40 . Memory (MB): peak = 1982.562 ; gain = 0.000 ; free physical = 2079 ; free virtual = 12989
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 14 15:00:53 2017...

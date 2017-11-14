@@ -1,6 +1,27 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2017.2 (lin64) Build 1909853 Thu Jun 15 18:39:10 MDT 2017
+| Date         : Tue Nov 14 14:58:08 2017
+| Host         : yanxiang-W520 running 64-bit Ubuntu 16.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_b_filter_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_b_filter_0_0 from user.org:user:b_filter:17 (Rev. 1) to user.org:user:b_filter:18 (Rev. 1)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (lin64) Build 1909853 Thu Jun 15 18:39:10 MDT 2017
 | Date         : Tue Nov 14 10:22:02 2017
 | Host         : yanxiang-W520 running 64-bit Ubuntu 16.04.1 LTS
 | Command      : upgrade_ip
