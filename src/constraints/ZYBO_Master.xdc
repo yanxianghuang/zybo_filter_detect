@@ -7,6 +7,9 @@
 ##Clock signal
 #set_property -dict { PACKAGE_PIN L16   IOSTANDARD LVCMOS33 } [get_ports { clk }]; #IO_L11P_T1_SRCC_35 Sch=sysclk
 #create_clock -add -name sys_clk_pin -period 8.00 -waveform {0 4} [get_ports { clk }];
+#create_clock -add -name clk1 -period 66.00 -waveform {0 33} [get_ports { FCLKCLK[1] }];
+#create_clock -add -name clk1 -period 66.00 -waveform {0 33} [get_ports { design_1_i/processing_system7_0/FCLK_CLK1 }];
+
 
 
 ##Switches

@@ -2,9 +2,9 @@
 <Root MajorVersion="0" MinorVersion="33">
   <CompositeFile CompositeFileTopName="design_1" CanBeSetAsTop="false" CanDisplayChildGraph="true">
     <Description>Composite Fileset</Description>
-    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1510234518"/>
-    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1510234518"/>
-    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1510234518"/>
+    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1510651345"/>
+    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1510651345"/>
+    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1510651345"/>
     <FileCollection Name="SOURCES" Type="SOURCES">
       <File Name="ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0.xci" Type="IP">
         <Instance HierarchyPath="axi_dma_0"/>
@@ -108,7 +108,7 @@
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="SIMULATION"/>
       </File>
-      <File Name="ip/design_1_b_filter_0_1/design_1_b_filter_0_1.xci" Type="IP">
+      <File Name="ip/design_1_b_filter_0_0/design_1_b_filter_0_0.xci" Type="IP">
         <Instance HierarchyPath="b_filter_0"/>
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
         <Library Name="xil_defaultlib"/>
@@ -116,16 +116,32 @@
         <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
       </File>
-      <File Name="ip/design_1_rst_ps7_0_40M_0/design_1_rst_ps7_0_40M_0.xci" Type="IP">
-        <Instance HierarchyPath="rst_ps7_0_40M"/>
+      <File Name="ip/design_1_ps7_0_axi_periph_0/design_1_ps7_0_axi_periph_0.xci" Type="IP">
+        <Instance HierarchyPath="ps7_0_axi_periph"/>
+        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/design_1_rst_ps7_0_15M_0/design_1_rst_ps7_0_15M_0.xci" Type="IP">
+        <Instance HierarchyPath="rst_ps7_0_15M"/>
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
         <Library Name="xil_defaultlib"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
       </File>
-      <File Name="ip/design_1_auto_cc_0/design_1_auto_cc_0.xci" Type="IP">
-        <Instance HierarchyPath="processing_system7_0_axi_periph/m04_couplers/auto_cc"/>
+      <File Name="ip/design_1_util_ds_buf_0_0/design_1_util_ds_buf_0_0.xci" Type="IP">
+        <Instance HierarchyPath="util_ds_buf_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/design_1_auto_pc_2/design_1_auto_pc_2.xci" Type="IP">
+        <Instance HierarchyPath="ps7_0_axi_periph/s00_couplers/auto_pc"/>
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
         <Library Name="xil_defaultlib"/>
         <UsedIn Val="SYNTHESIS"/>
