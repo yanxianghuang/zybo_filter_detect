@@ -1,0 +1,107 @@
+
+*** Running vivado
+    with args -log design_1_axi_gpio_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axi_gpio_0_0.tcl
+
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source design_1_axi_gpio_0_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1215.648 ; gain = 75.996 ; free physical = 1778 ; free virtual = 11997
+INFO: [Synth 8-638] synthesizing module 'design_1_axi_gpio_0_0' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ip/design_1_axi_gpio_0_0/synth/design_1_axi_gpio_0_0.vhd:88]
+INFO: [Synth 8-638] synthesizing module 'axi_gpio' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/cb07/hdl/axi_gpio_v2_0_vh_rfs.vhd:1257]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'slave_attachment' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-638] synthesizing module 'address_decoder' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-638] synthesizing module 'pselect_f' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f' (1#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized0' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized0' (1#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized1' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized1' (1#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized2' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized2' (1#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized3' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized3' (1#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized4' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized4' (1#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized5' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized5' (1#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized6' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized6' (1#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized7' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized7' (1#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized8' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized8' (1#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized9' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized9' (1#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized10' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized10' (1#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized11' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized11' (1#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized12' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized12' (1#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized13' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized13' (1#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized14' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized14' (1#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized15' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized15' (1#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized16' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized16' (1#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized17' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized17' (1#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized18' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized18' (1#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized19' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized19' (1#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized20' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized20' (1#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'address_decoder' (2#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-256] done synthesizing module 'slave_attachment' (3#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif' (4#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'interrupt_control' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/e956/hdl/interrupt_control_v3_1_vh_rfs.vhd:259]
+INFO: [Synth 8-256] done synthesizing module 'interrupt_control' (5#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/e956/hdl/interrupt_control_v3_1_vh_rfs.vhd:259]
+INFO: [Synth 8-638] synthesizing module 'GPIO_Core' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/cb07/hdl/axi_gpio_v2_0_vh_rfs.vhd:177]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (6#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'GPIO_Core' (7#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/cb07/hdl/axi_gpio_v2_0_vh_rfs.vhd:177]
+INFO: [Synth 8-256] done synthesizing module 'axi_gpio' (8#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/cb07/hdl/axi_gpio_v2_0_vh_rfs.vhd:1257]
+INFO: [Synth 8-256] done synthesizing module 'design_1_axi_gpio_0_0' (9#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ip/design_1_axi_gpio_0_0/synth/design_1_axi_gpio_0_0.vhd:88]
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1258.148 ; gain = 118.496 ; free physical = 1728 ; free virtual = 11947
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1258.148 ; gain = 118.496 ; free physical = 1722 ; free virtual = 11941
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.04 . Memory (MB): peak = 1641.594 ; gain = 0.000 ; free physical = 1090 ; free virtual = 11308
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1641.594 ; gain = 501.941 ; free physical = 974 ; free virtual = 11192
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1641.594 ; gain = 501.941 ; free physical = 975 ; free virtual = 11194
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1641.594 ; gain = 501.941 ; free physical = 1004 ; free virtual = 11223
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1641.594 ; gain = 501.941 ; free physical = 1024 ; free virtual = 11243
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1641.594 ; gain = 501.941 ; free physical = 1010 ; free virtual = 11229
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1641.594 ; gain = 501.941 ; free physical = 520 ; free virtual = 10739
+Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 1641.594 ; gain = 501.941 ; free physical = 497 ; free virtual = 10716
+Finished Technology Mapping : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1641.594 ; gain = 501.941 ; free physical = 481 ; free virtual = 10700
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 1641.594 ; gain = 501.941 ; free physical = 427 ; free virtual = 10646
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 1641.594 ; gain = 501.941 ; free physical = 425 ; free virtual = 10645
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 1641.594 ; gain = 501.941 ; free physical = 419 ; free virtual = 10638
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 1641.594 ; gain = 501.941 ; free physical = 417 ; free virtual = 10637
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 1641.594 ; gain = 501.941 ; free physical = 416 ; free virtual = 10636
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 1641.594 ; gain = 501.941 ; free physical = 416 ; free virtual = 10635
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     2|
+|2     |LUT2 |    12|
+|3     |LUT3 |     7|
+|4     |LUT4 |    19|
+|5     |LUT5 |    27|
+|6     |LUT6 |    32|
+|7     |FDR  |    32|
+|8     |FDRE |   100|
+|9     |FDSE |    12|
++------+-----+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 1641.594 ; gain = 501.941 ; free physical = 416 ; free virtual = 10635
+synth_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1641.594 ; gain = 514.527 ; free physical = 353 ; free virtual = 10572

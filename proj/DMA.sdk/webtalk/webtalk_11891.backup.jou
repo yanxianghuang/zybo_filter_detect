@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# 
+# Start of session at: Tue Nov  7 17:45:40 2017
+# Process ID: 11891
+# Current directory: /home/yanxiang/Develop/vivado/back/Zybo-DMA/proj/DMA.sdk/webtalk
+# Command line: wbtcv -mode batch -source sdk_webtalk.tcl
+# Log file: /home/yanxiang/Develop/vivado/back/Zybo-DMA/proj/DMA.sdk/webtalk/webtalk.log
+# Journal file: /home/yanxiang/Develop/vivado/back/Zybo-DMA/proj/DMA.sdk/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

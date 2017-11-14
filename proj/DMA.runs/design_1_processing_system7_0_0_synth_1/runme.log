@@ -1,0 +1,56 @@
+
+*** Running vivado
+    with args -log design_1_processing_system7_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_processing_system7_0_0.tcl
+
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source design_1_processing_system7_0_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1222.664 ; gain = 77.996 ; free physical = 1574 ; free virtual = 10010
+INFO: [Synth 8-638] synthesizing module 'design_1_processing_system7_0_0' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ip/design_1_processing_system7_0_0/synth/design_1_processing_system7_0_0.v:60]
+INFO: [Synth 8-638] synthesizing module 'processing_system7_v5_5_processing_system7' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ip/design_1_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:161]
+INFO: [Synth 8-638] synthesizing module 'BUFG' [/opt/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'BUFG' (1#1) [/opt/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-638] synthesizing module 'BIBUF' [/opt/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:268]
+INFO: [Synth 8-256] done synthesizing module 'BIBUF' (2#1) [/opt/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:268]
+INFO: [Synth 8-638] synthesizing module 'PS7' [/opt/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:33527]
+INFO: [Synth 8-256] done synthesizing module 'PS7' (3#1) [/opt/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:33527]
+INFO: [Synth 8-256] done synthesizing module 'processing_system7_v5_5_processing_system7' (4#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ip/design_1_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:161]
+INFO: [Synth 8-256] done synthesizing module 'design_1_processing_system7_0_0' (5#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ip/design_1_processing_system7_0_0/synth/design_1_processing_system7_0_0.v:60]
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1263.164 ; gain = 118.496 ; free physical = 1563 ; free virtual = 10003
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1263.164 ; gain = 118.496 ; free physical = 1550 ; free virtual = 9990
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.05 . Memory (MB): peak = 1573.227 ; gain = 0.000 ; free physical = 1087 ; free virtual = 9527
+Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1573.227 ; gain = 428.559 ; free physical = 1170 ; free virtual = 9610
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1573.227 ; gain = 428.559 ; free physical = 1170 ; free virtual = 9610
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1573.227 ; gain = 428.559 ; free physical = 1169 ; free virtual = 9609
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1573.227 ; gain = 428.559 ; free physical = 1159 ; free virtual = 9600
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1573.227 ; gain = 428.559 ; free physical = 1149 ; free virtual = 9590
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 1749.219 ; gain = 604.551 ; free physical = 820 ; free virtual = 9261
+Finished Timing Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 1769.227 ; gain = 624.559 ; free physical = 806 ; free virtual = 9248
+Finished Technology Mapping : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1777.234 ; gain = 632.566 ; free physical = 789 ; free virtual = 9230
+Finished IO Insertion : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1777.234 ; gain = 632.566 ; free physical = 778 ; free virtual = 9220
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1777.234 ; gain = 632.566 ; free physical = 778 ; free virtual = 9220
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1777.234 ; gain = 632.566 ; free physical = 778 ; free virtual = 9220
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1777.234 ; gain = 632.566 ; free physical = 778 ; free virtual = 9220
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1777.234 ; gain = 632.566 ; free physical = 778 ; free virtual = 9220
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1777.234 ; gain = 632.566 ; free physical = 778 ; free virtual = 9220
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |BIBUF |   130|
+|2     |BUFG  |     1|
+|3     |LUT1  |   112|
+|4     |LUT3  |     3|
+|5     |LUT4  |     7|
+|6     |LUT5  |    13|
+|7     |LUT6  |    17|
+|8     |PS7   |     1|
++------+------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1777.234 ; gain = 632.566 ; free physical = 778 ; free virtual = 9220
+synth_design: Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 1811.250 ; gain = 679.168 ; free physical = 1048 ; free virtual = 9491

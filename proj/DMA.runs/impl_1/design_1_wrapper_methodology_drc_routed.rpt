@@ -1,0 +1,143 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (lin64) Build 1909853 Thu Jun 15 18:39:10 MDT 2017
+| Date         : Tue Nov 14 10:32:35 2017
+| Host         : yanxiang-W520 running 64-bit Ubuntu 16.04.1 LTS
+| Command      : report_methodology -file design_1_wrapper_methodology_drc_routed.rpt -rpx design_1_wrapper_methodology_drc_routed.rpx
+| Design       : design_1_wrapper
+| Device       : xc7z010clg400-1
+| Speed File   : -1
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 20
++-----------+----------+---------------------------------------------------+------------+
+| Rule      | Severity | Description                                       | Violations |
++-----------+----------+---------------------------------------------------+------------+
+| TIMING-18 | Warning  | Missing input or output delay                     | 16         |
+| XDCB-5    | Warning  | Runtime inefficient way to find pin objects       | 2          |
+| XDCC-2    | Warning  | Scoped Non-Timing constraint/property overwritten | 2          |
++-----------+----------+---------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on ac_recdat relative to clock(s) VIRTUAL_clkout0 
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on btns_4bits_tri_i[0] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An input delay is missing on btns_4bits_tri_i[1] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An input delay is missing on btns_4bits_tri_i[2] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An input delay is missing on btns_4bits_tri_i[3] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#6 Warning
+Missing input or output delay  
+An input delay is missing on iic_scl_io relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#7 Warning
+Missing input or output delay  
+An input delay is missing on iic_sda_io relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#8 Warning
+Missing input or output delay  
+An input delay is missing on leds_4bits_tri_io[0] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#9 Warning
+Missing input or output delay  
+An input delay is missing on leds_4bits_tri_io[1] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#10 Warning
+Missing input or output delay  
+An input delay is missing on leds_4bits_tri_io[2] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#11 Warning
+Missing input or output delay  
+An input delay is missing on leds_4bits_tri_io[3] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#12 Warning
+Missing input or output delay  
+An output delay is missing on ac_bclk relative to clock(s) VIRTUAL_clkout0 
+Related violations: <none>
+
+TIMING-18#13 Warning
+Missing input or output delay  
+An output delay is missing on ac_mclk relative to clock(s) VIRTUAL_clkout0 
+Related violations: <none>
+
+TIMING-18#14 Warning
+Missing input or output delay  
+An output delay is missing on ac_pbdat relative to clock(s) VIRTUAL_clkout0 
+Related violations: <none>
+
+TIMING-18#15 Warning
+Missing input or output delay  
+An output delay is missing on ac_pblrc relative to clock(s) VIRTUAL_clkout0 
+Related violations: <none>
+
+TIMING-18#16 Warning
+Missing input or output delay  
+An output delay is missing on ac_reclrc relative to clock(s) VIRTUAL_clkout0 
+Related violations: <none>
+
+XDCB-5#1 Warning
+Runtime inefficient way to find pin objects  
+The option '-through : [get_pins -filter {NAME =~ */Inst_I2sCtl/Inst_Rst_Sync*/FDRE_inst_*/PRE} -hier]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '6' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: /home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ip/design_1_d_axi_i2s_audio_0_0/src/d_axi_i2s_audio.xdc (Line: 2)
+Related violations: <none>
+
+XDCB-5#2 Warning
+Runtime inefficient way to find pin objects  
+The option '-through : [get_pins -filter {NAME =~ */Inst_I2sCtl/Inst_SyncBit_*/sreg_reg[0]/D} -hier]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '5' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: /home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ip/design_1_d_axi_i2s_audio_0_0/src/d_axi_i2s_audio.xdc (Line: 1)
+Related violations: <none>
+
+XDCC-2#1 Warning
+Scoped Non-Timing constraint/property overwritten  
+A new XDC property PACKAGE_PIN on iic_scl_io overrides a previous scoped property. It is not recommended to override a scoped (typically an IP) property and could result in unexpected behaviours.
+New Source: /home/yanxiang/Develop/vivado/back/Zybo-DMA/src/constraints/ZYBO_Master.xdc (Line: 47)
+Previous Source: /home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ip/design_1_axi_iic_0_0/design_1_axi_iic_0_0_board.xdc (Line: 3)
+Related violations: <none>
+
+XDCC-2#2 Warning
+Scoped Non-Timing constraint/property overwritten  
+A new XDC property PACKAGE_PIN on iic_sda_io overrides a previous scoped property. It is not recommended to override a scoped (typically an IP) property and could result in unexpected behaviours.
+New Source: /home/yanxiang/Develop/vivado/back/Zybo-DMA/src/constraints/ZYBO_Master.xdc (Line: 48)
+Previous Source: /home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ip/design_1_axi_iic_0_0/design_1_axi_iic_0_0_board.xdc (Line: 4)
+Related violations: <none>
+
+

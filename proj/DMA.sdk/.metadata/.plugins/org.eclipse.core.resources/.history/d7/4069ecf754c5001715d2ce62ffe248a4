@@ -1,0 +1,55 @@
+src/userio/userio.o src/userio/userio.o: ../src/userio/userio.c \
+ ../../detect-4way_bsp/ps7_cortexa9_0/include/xparameters.h \
+ ../../detect-4way_bsp/ps7_cortexa9_0/include/xparameters_ps.h \
+ ../src/userio/userio.h \
+ ../../detect-4way_bsp/ps7_cortexa9_0/include/xstatus.h \
+ ../../detect-4way_bsp/ps7_cortexa9_0/include/xil_types.h \
+ ../../detect-4way_bsp/ps7_cortexa9_0/include/xil_assert.h \
+ ../../detect-4way_bsp/ps7_cortexa9_0/include/xgpio.h \
+ ../../detect-4way_bsp/ps7_cortexa9_0/include/xstatus.h \
+ ../../detect-4way_bsp/ps7_cortexa9_0/include/xgpio_l.h \
+ ../../detect-4way_bsp/ps7_cortexa9_0/include/xil_io.h \
+ ../../detect-4way_bsp/ps7_cortexa9_0/include/xil_printf.h \
+ ../../detect-4way_bsp/ps7_cortexa9_0/include/xparameters.h \
+ ../../detect-4way_bsp/ps7_cortexa9_0/include/xpseudo_asm.h \
+ ../../detect-4way_bsp/ps7_cortexa9_0/include/xreg_cortexa9.h \
+ ../../detect-4way_bsp/ps7_cortexa9_0/include/xpseudo_asm_gcc.h \
+ ../src/userio/../demo.h \
+ ../../detect-4way_bsp/ps7_cortexa9_0/include/xil_io.h \
+ ../../detect-4way_bsp/ps7_cortexa9_0/include/xil_cache.h
+
+../../detect-4way_bsp/ps7_cortexa9_0/include/xparameters.h:
+
+../../detect-4way_bsp/ps7_cortexa9_0/include/xparameters_ps.h:
+
+../src/userio/userio.h:
+
+../../detect-4way_bsp/ps7_cortexa9_0/include/xstatus.h:
+
+../../detect-4way_bsp/ps7_cortexa9_0/include/xil_types.h:
+
+../../detect-4way_bsp/ps7_cortexa9_0/include/xil_assert.h:
+
+../../detect-4way_bsp/ps7_cortexa9_0/include/xgpio.h:
+
+../../detect-4way_bsp/ps7_cortexa9_0/include/xstatus.h:
+
+../../detect-4way_bsp/ps7_cortexa9_0/include/xgpio_l.h:
+
+../../detect-4way_bsp/ps7_cortexa9_0/include/xil_io.h:
+
+../../detect-4way_bsp/ps7_cortexa9_0/include/xil_printf.h:
+
+../../detect-4way_bsp/ps7_cortexa9_0/include/xparameters.h:
+
+../../detect-4way_bsp/ps7_cortexa9_0/include/xpseudo_asm.h:
+
+../../detect-4way_bsp/ps7_cortexa9_0/include/xreg_cortexa9.h:
+
+../../detect-4way_bsp/ps7_cortexa9_0/include/xpseudo_asm_gcc.h:
+
+../src/userio/../demo.h:
+
+../../detect-4way_bsp/ps7_cortexa9_0/include/xil_io.h:
+
+../../detect-4way_bsp/ps7_cortexa9_0/include/xil_cache.h:

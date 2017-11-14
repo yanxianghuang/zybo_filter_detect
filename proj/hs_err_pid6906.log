@@ -1,0 +1,26 @@
+#
+# An unexpected error has occurred (11)
+#
+Stack:
+/lib/x86_64-linux-gnu/libc.so.6(+0x354b0) [0x7f6d26a404b0]
+/opt/Xilinx/Vivado/2017.2/lib/lnx64.o/libverific.so(Verific::VhdlIdDef::Name() const+0) [0x7f6d2840b020]
+/opt/Xilinx/Vivado/2017.2/lib/lnx64.o/libverific.so(Verific::VhdlEntityDecl::AssociateGenerics(Verific::Array*, Verific::VhdlIdDef*, Verific::Array*)+0x1209) [0x7f6d284b60f9]
+/opt/Xilinx/Vivado/2017.2/lib/lnx64.o/libverific.so(Verific::VhdlEntityDecl::CreateUniqueUnit(Verific::Array**, Verific::Array**, Verific::VhdlBlockConfiguration*, Verific::VhdlIdDef*, char const*, Verific::VhdlMapForCopy&, char const*, Verific::Array*, unsigned int)+0x38b) [0x7f6d284f8b0b]
+/opt/Xilinx/Vivado/2017.2/lib/lnx64.o/libverific.so(Verific::VhdlComponentInstantiationStatement::StaticElaborate(Verific::Array*, Verific::Array*, Verific::VhdlBlockConfiguration*, Verific::VhdlIdDef*, char const*, Verific::VhdlPrimaryUnit*)+0x1f4) [0x7f6d284fa854]
+/opt/Xilinx/Vivado/2017.2/lib/lnx64.o/libverific.so(Verific::VhdlComponentInstantiationStatement::Elaborate(Verific::VhdlDataFlow*, Verific::VhdlBlockConfiguration*)+0x4be) [0x7f6d284942ae]
+/opt/Xilinx/Vivado/2017.2/lib/lnx64.o/libverific.so(Verific::VhdlArchitectureBody::StaticElaborate(Verific::VhdlBlockConfiguration*)+0x170) [0x7f6d284f80e0]
+/opt/Xilinx/Vivado/2017.2/lib/lnx64.o/libverific.so(Verific::VhdlEntityDecl::StaticElaborateInternal(char const*, Verific::Array*, Verific::Array*, Verific::VhdlBlockConfiguration*, Verific::VhdlIdDef*)+0x4f5) [0x7f6d284f6c75]
+/opt/Xilinx/Vivado/2017.2/lib/lnx64.o/libverific.so(Verific::VhdlEntityDecl::StaticElaborate(char const*, Verific::Array*, Verific::Array*, Verific::VhdlBlockConfiguration*, Verific::VhdlIdDef*)+0x1ea) [0x7f6d284ed39a]
+/opt/Xilinx/Vivado/2017.2/lib/lnx64.o/libverific.so(Verific::veri_file::ElaborateMixedHdlMultipleTopsStatic(Verific::Array const*, Verific::Array const*, Verific::Map const*, Verific::Array*, Verific::Array*)+0x40f) [0x7f6d283339bf]
+srcscanner() [0x470a45]
+srcscanner() [0x471c71]
+srcscanner() [0x44505f]
+srcscanner() [0x44abc8]
+/opt/Xilinx/Vivado/2017.2/lib/lnx64.o/libtcl8.5.so(TclInvokeStringCommand+0x76) [0x7f6d28a90f66]
+/opt/Xilinx/Vivado/2017.2/lib/lnx64.o/libtcl8.5.so(+0x334af) [0x7f6d28a954af]
+/opt/Xilinx/Vivado/2017.2/lib/lnx64.o/libtcl8.5.so(+0x34b38) [0x7f6d28a96b38]
+/opt/Xilinx/Vivado/2017.2/lib/lnx64.o/libtcl8.5.so(Tcl_EvalEx+0x13) [0x7f6d28a970a3]
+/opt/Xilinx/Vivado/2017.2/lib/lnx64.o/libtcl8.5.so(Tcl_Eval+0x15) [0x7f6d28a970c5]
+srcscanner(main+0x293) [0x42d673]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf0) [0x7f6d26a2b830]
+srcscanner() [0x42f969]

@@ -1,0 +1,63 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Tue Nov  7 16:51:18 2017
+# Process ID: 3336
+# Current directory: /home/yanxiang/Develop/vivado/back/Zybo-DMA/proj/DMA.runs/design_1_rst_processing_system7_0_100M_0_synth_1
+# Command line: vivado -log design_1_rst_processing_system7_0_100M_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_rst_processing_system7_0_100M_0.tcl
+# Log file: /home/yanxiang/Develop/vivado/back/Zybo-DMA/proj/DMA.runs/design_1_rst_processing_system7_0_100M_0_synth_1/design_1_rst_processing_system7_0_100M_0.vds
+# Journal file: /home/yanxiang/Develop/vivado/back/Zybo-DMA/proj/DMA.runs/design_1_rst_processing_system7_0_100M_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source design_1_rst_processing_system7_0_100M_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1204.645 ; gain = 69.996 ; free physical = 713 ; free virtual = 10448
+INFO: [Synth 8-638] synthesizing module 'design_1_rst_processing_system7_0_100M_0' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ip/design_1_rst_processing_system7_0_100M_0/synth/design_1_rst_processing_system7_0_100M_0.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'proc_sys_reset' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5db7/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
+INFO: [Synth 8-638] synthesizing module 'lpf' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5db7/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
+INFO: [Synth 8-638] synthesizing module 'SRL16' [/opt/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:43657]
+INFO: [Synth 8-256] done synthesizing module 'SRL16' (1#1) [/opt/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:43657]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (2#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'lpf' (3#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5db7/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
+INFO: [Synth 8-638] synthesizing module 'sequence_psr' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5db7/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
+INFO: [Synth 8-638] synthesizing module 'upcnt_n' [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5db7/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:125]
+INFO: [Synth 8-256] done synthesizing module 'upcnt_n' (4#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5db7/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:125]
+INFO: [Synth 8-256] done synthesizing module 'sequence_psr' (5#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5db7/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
+INFO: [Synth 8-256] done synthesizing module 'proc_sys_reset' (6#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ipshared/5db7/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
+INFO: [Synth 8-256] done synthesizing module 'design_1_rst_processing_system7_0_100M_0' (7#1) [/home/yanxiang/Develop/vivado/back/Zybo-DMA/src/bd/design_1/ip/design_1_rst_processing_system7_0_100M_0/synth/design_1_rst_processing_system7_0_100M_0.vhd:74]
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1246.145 ; gain = 111.496 ; free physical = 722 ; free virtual = 10457
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1246.145 ; gain = 111.496 ; free physical = 723 ; free virtual = 10458
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 1627.613 ; gain = 0.000 ; free physical = 459 ; free virtual = 10194
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1627.613 ; gain = 492.965 ; free physical = 525 ; free virtual = 10260
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1627.613 ; gain = 492.965 ; free physical = 525 ; free virtual = 10260
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1627.613 ; gain = 492.965 ; free physical = 526 ; free virtual = 10261
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1627.613 ; gain = 492.965 ; free physical = 516 ; free virtual = 10251
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1627.613 ; gain = 492.965 ; free physical = 503 ; free virtual = 10238
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1627.613 ; gain = 492.965 ; free physical = 135 ; free virtual = 9811
+Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1627.613 ; gain = 492.965 ; free physical = 135 ; free virtual = 9811
+Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1627.613 ; gain = 492.965 ; free physical = 134 ; free virtual = 9810
+Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1627.613 ; gain = 492.965 ; free physical = 134 ; free virtual = 9810
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1627.613 ; gain = 492.965 ; free physical = 134 ; free virtual = 9810
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1627.613 ; gain = 492.965 ; free physical = 134 ; free virtual = 9810
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1627.613 ; gain = 492.965 ; free physical = 134 ; free virtual = 9810
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1627.613 ; gain = 492.965 ; free physical = 134 ; free virtual = 9810
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1627.613 ; gain = 492.965 ; free physical = 134 ; free virtual = 9810
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |LUT1  |     5|
+|2     |LUT2  |     9|
+|3     |LUT3  |     1|
+|4     |LUT4  |     6|
+|5     |LUT5  |     3|
+|6     |LUT6  |     1|
+|7     |SRL16 |     1|
+|8     |FDR   |     8|
+|9     |FDRE  |    28|
+|10    |FDSE  |     4|
++------+------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1627.613 ; gain = 492.965 ; free physical = 134 ; free virtual = 9810
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 1627.613 ; gain = 505.551 ; free physical = 166 ; free virtual = 9841

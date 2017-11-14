@@ -1,0 +1,16 @@
+src/platform.o src/platform.o: ../src/platform.c \
+ ../../detect-4way_bsp/ps7_cortexa9_0/include/xparameters.h \
+ ../../detect-4way_bsp/ps7_cortexa9_0/include/xparameters_ps.h \
+ ../../detect-4way_bsp/ps7_cortexa9_0/include/xil_cache.h \
+ ../../detect-4way_bsp/ps7_cortexa9_0/include/xil_types.h \
+ ../src/platform_config.h
+
+../../detect-4way_bsp/ps7_cortexa9_0/include/xparameters.h:
+
+../../detect-4way_bsp/ps7_cortexa9_0/include/xparameters_ps.h:
+
+../../detect-4way_bsp/ps7_cortexa9_0/include/xil_cache.h:
+
+../../detect-4way_bsp/ps7_cortexa9_0/include/xil_types.h:
+
+../src/platform_config.h:

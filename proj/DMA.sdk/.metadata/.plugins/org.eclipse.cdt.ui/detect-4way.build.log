@@ -1,0 +1,17 @@
+16:19:30 **** Incremental Build of configuration Debug for project detect-4way ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/platform.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../detect-4way_bsp/ps7_cortexa9_0/include -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+In file included from ../src/platform.c:33:0:
+../../detect-4way_bsp/ps7_cortexa9_0/include/xparameters.h:19:28: fatal error: xparameters_ps.h: No such file or directory
+ #include "xparameters_ps.h"
+                            ^
+compilation terminated.
+src/subdir.mk:21: recipe for target 'src/platform.o' failed
+make: *** [src/platform.o] Error 1
+
+16:19:30 Build Finished (took 488ms)
+

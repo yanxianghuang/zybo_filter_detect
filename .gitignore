@@ -36,7 +36,8 @@ sdk/*_bsp*/*
 !sdk/**/*Debug/*.elf
 !sdk/**/*Debug/*.elf.size
 
-repo/**
+# whitelist repo
+!repo/**
 # whitelist vivado-library if it exists
 !repo/vivado-library
 #do not white-list submodule contents
@@ -55,8 +56,8 @@ src/ip/*/**
 !src/bd/**
 
 
-# ignore everything in project folder
-proj/*
+# white list proj. ignore everything in project folder
+!proj/*
 # except this file and project generators
 !proj/create_project.tcl
 !proj/cleanup.cmd
